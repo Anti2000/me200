@@ -5,7 +5,7 @@ cd .. : go upper
 mkdir exemple: create directory
 rmdir exemple: delete directory,
 lsb_release -a :know version of ubuntu
-
+cat <name file>> : open file
 
 GIT:
     sudo apt install git
@@ -34,6 +34,8 @@ git clone <https://github.com/Anti2000/car_parser.git> <car_parser> : make up cl
 git remote -v: show what is connect to computor.
 git remote add origin <https://github.com/Anti2000/example.git> add shotcut
 git push origin master: add file to server  ???
+
+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
 #################################################################################################
 270 for all.
 120 all ELECTRICITY.
