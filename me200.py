@@ -38,6 +38,7 @@ git push origin master: add file to server  ???
 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
 #################################################################################################
 с газовая труба, сделать стенку.
+battery, tubes
 270 for all.
 120 all ELECTRICITY.
 200 kitchen
