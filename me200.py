@@ -35,8 +35,14 @@ git remote -v: show what is connect to computor.
 git remote add origin <https://github.com/Anti2000/example.git> add shotcut
 git push origin master: add file to server  ???
 
-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
+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
+
 #################################################################################################
+plaster
+electricity
+
+
+
 с газовая труба, сделать стенку.
 battery, tubes
 270 for all.
