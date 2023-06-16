@@ -41,6 +41,8 @@ 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
 plaster
 electricity
 
+груша,
+bikes
 
 
 с газовая труба, сделать стенку.
