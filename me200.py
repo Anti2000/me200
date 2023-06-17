@@ -34,12 +34,30 @@ git clone <https://github.com/Anti2000/car_parser.git> <car_parser> : make up cl
 git remote -v: show what is connect to computor.
 git remote add origin <https://github.com/Anti2000/example.git> add shotcut
 git push origin master: add file to server  ???
+git pull origin main: update data from githup
+https://stackoverflow.com/questions/1443210/updating-a-local-repository-with-changes-from-a-github-repository
+..
 
-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
+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
 
 #################################################################################################
+сосед сверху. вопрос сверх.
 plaster
-electricity
+battery?.
+какой пол,
+закрыть трубу,
+удлинение стенки,
+сантехника?свободное время
+гидроизоляция
+plaster for vanna
+стяжка
+electricity.
+шпаклевка
+наливной пол
+плитка?ванна, сантехника
+обои
+кварцвинил
+кухня.
 
 груша,
 bikes
