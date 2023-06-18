@@ -43,20 +43,22 @@ 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
 #################################################################################################
 сосед сверху. вопрос сверх.
 plaster
-battery?.
-какой пол,
-закрыть трубу,
-удлинение стенки,
-сантехника?свободное время
-гидроизоляция
-plaster for vanna
-стяжка
-electricity.
-шпаклевка
-наливной пол
-плитка?ванна, сантехника
-обои
-кварцвинил
+кухня. make up project.
+battery?. find who will make up, resolve how make up it, buy battery.
+какой пол, take up piece of kvarwinil and test it
+закрыть трубу, buy gipsokarton, know price all of it.
+удлинение стенки, know how long, know price of it.
+сантехника?свободное время buy plitka. know price what is plitka and buy.
+гидроизоляция. will buy.
+plaster for vanna. will buy.
+стяжка. will buy. know when.
+electricity. resolve question with project.
+шпаклевка. will buy.
+наливной пол.will buy.
+плитка?ванна, сантехника.will buy
+обои. what is. and buy.
+warm floor.
+кварцвинил. will buy.
 кухня.
 
 груша,
