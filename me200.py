@@ -42,23 +42,23 @@ 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
 
 #################################################################################################
 сосед сверху. вопрос сверх.
-plaster
+plaster(48600)(6400 mayak)
 кухня. make up project.
 battery?. find who will make up, resolve how make up it, buy battery.
 какой пол, take up piece of kvarwinil and test it
 закрыть трубу, buy gipsokarton, know price all of it.
 удлинение стенки, know how long, know price of it.
 сантехника?свободное время buy plitka. know price what is plitka and buy.
-гидроизоляция. will buy.
+гидроизоляция. will buy.(2500)
 plaster for vanna. will buy.
-стяжка. will buy. know when.
+стяжка. will buy. know when.(33300)
 electricity. resolve question with project.
-шпаклевка. will buy.
-наливной пол.will buy.
-плитка?ванна, сантехника.will buy
-обои. what is. and buy.
+шпаклевка. (275400) will buy.
+наливной пол.will buy.(11100)
+плитка?ванна, сантехника.will buy.(vanna2500, unitaz 3500, vodoprovod 500, plitka 20000, 5000)
+обои. what is. and buy.(24300)
 warm floor.
-кварцвинил. will buy.
+кварцвинил. will buy.(8000)
 кухня.
 
 груша,
