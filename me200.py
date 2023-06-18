@@ -41,10 +41,11 @@ https://stackoverflow.com/questions/1443210/updating-a-local-repository-with-cha
 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
 
 #################################################################################################
-сосед сверху. вопрос сверх.
+@@@ сосед сверху. вопрос сверх.
+doors
+battery?. find who will make up, resolve how make up it, buy battery.
 plaster(48600)(6400 mayak)
 кухня. make up project.
-battery?. find who will make up, resolve how make up it, buy battery.
 какой пол, take up piece of kvarwinil and test it
 закрыть трубу, buy gipsokarton, know price all of it.
 удлинение стенки, know how long, know price of it.
