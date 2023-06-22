@@ -1,3 +1,6 @@
+token 
+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
+
 linux commands: ls: List the contents of a folder
 ls -l : to see details like file size, permission, modified time, etc.
 cd : Change the directory
@@ -6,6 +9,7 @@ mkdir exemple: create directory
 rmdir exemple: delete directory,
 lsb_release -a :know version of ubuntu
 cat <name file>> : open file
+cat < namefile : create file
 
 GIT:
     sudo apt install git
@@ -38,8 +42,20 @@ git pull origin main: update data from githup
 https://stackoverflow.com/questions/1443210/updating-a-local-repository-with-changes-from-a-github-repository
 ..
 
-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
+Django
+https://code.visualstudio.com/docs/python/tutorial-django
+Create a project environment for the Django tutorial
+sudo apt-get install python3-venv    # If needed
+python3 -m venv .venv
+source .venv/bin/activate
 
+python -m pip install --upgrade pip
+python -m pip install django
+
+ddjango-admin startproject web_project : create project.
+python3 manage.py runserver : start server
+Quit the server with CONTROL-C.
+python3 manage.py startapp main : create application
 #################################################################################################
 @@@ сосед сверху. вопрос сверх.
 doors
