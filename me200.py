@@ -43,6 +43,7 @@ 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
 #################################################################################################
 @@@ сосед сверху. вопрос сверх.
 doors
+windows
 battery?. find who will make up, resolve how make up it, buy battery.
 plaster(48600)(6400 mayak)
 кухня. make up project.
