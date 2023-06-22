@@ -156,3 +156,11 @@ THE WALLS:
 THE BATHROOM:
 
 THE ELECTRICITY:
+
+healthy food:
+eggs
+bannana
+tommato
+brown rice
+fish
+dark chocolate 
