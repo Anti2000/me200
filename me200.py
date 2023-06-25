@@ -174,7 +174,10 @@ git remote add origin <https://github.com/Anti2000/example.git> add shotcut
 git push origin master: add file to server  ???
 git pull origin main: update data from githup
 https://stackoverflow.com/questions/1443210/updating-a-local-repository-with-changes-from-a-github-repository
-..
+git pull --rebase
+Then I push the changes to a remote branch of the same name:
+git push origin FixForBug
+
 
 Django
 https://code.visualstudio.com/docs/python/tutorial-django
