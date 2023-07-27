@@ -147,6 +147,7 @@ rmdir exemple: delete directory,
 lsb_release -a :know version of ubuntu
 cat <name file>> : open file
 cat < namefile : create file
+open Terminal in Linux: Using Shortcut(CTRL+ALT+T).
 
 GIT:
     sudo apt install git
