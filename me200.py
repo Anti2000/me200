@@ -182,6 +182,13 @@ Then I push the changes to a remote branch of the same name:
 git push origin FixForBug
 
 
+install vc code:
+sudo snap install --classic code
+
+Asd25@#
+
+
+
 Django
 https://code.visualstudio.com/docs/python/tutorial-django
 Create a project environment for the Django tutorial
@@ -197,6 +204,8 @@ python3 manage.py runserver : start server
 Quit the server with CONTROL-C.
 python3 manage.py startapp main : create application
 #################################################################################################
+
+password: avito Spiritof12@12@ 89958395917
 @@@ сосед сверху. вопрос сверх.
 doors
 windows
