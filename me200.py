@@ -1,64 +1,6 @@
 
-В957кк156
-
-190.0 вагонка крыши 22 штуки.
-130.0 вагонка задняя стенка 12 шт.
-144.0 вагонка боковая стенка. 12 шт.
-49.0 вагонка боковка стенка окно 10 шт.
-49.5 вагонка боковая стенка окно 10 шт.
-65.0 вагонка лиц. Сторона справа 6 шт.
-17.5 вагонка лиц. Сторона окно 10 шт.
-25.5 вагонка лиц. Сторона слева 11 шт.
-39.5 вагонка дверь 7 шт.
-132.0 вагонка угол 2 шт.
-116.0 вагонка угол 2 шт.
-99.0 вагонка угол 2 шт.
-83.0 вагонка угол 2 шт.
-66.0 вагонка угол 2 шт.
-50.0 вагонка угол 2 шт.
-34.0 вагонка угол 2 шт.
-18.0 вагонка угол 2 шт.
-47 Рейка окно 4шт. Подоконник
-41.5 рейка окно 6 шт.
-30.0 рейка окно 2 шт.
-100 40*40 стойки 6 шт.
-95.0 94.0 угол крыши 6 шт. Уточнить в про
-183. 40*40 направляющая пола 2 шт.
-33.0 40*40 2 шт.
-50.0 40*40 4 шт.
-96.0 40*40 2 шт.
-31.5 40*40 3 шт.
-130.0 доска для пола 17 шт.
-Наличник 4 шт. По 2 метра.
-
-Рха666
-+79960787468
-
-455196
-4361
-39
-
 Section one of American fair tales. This is % livbres waks% recording. All % recording to public on % domain. For more information and valunture please visit % org. Recording by mark ris. American fair tales by Elfrand born .a box and robbits no more intended a long to live afternoon  by happens everyone call afteway reasen one one others this is women sister long driver paper is officer uzre what mind she answered 
 7536*
-
-
-linux commands: ls: List the contents of a folder
-ls -l : to see details like file size, permission, modified time, etc.
-cd : Change the directory
-cd .. : go upper
-mkdir exemple: create directory
-rmdir exemple: delete directory,
-lsb_release -a :know version of ubuntu
-cat <name file>> : open file
-cat < namefile : create file
-open Terminal in Linux: Using Shortcut(CTRL+ALT+T).
-
-
-install vc code:
-sudo snap install --classic code
-
-Asd25@#
-
 
 
 Django
