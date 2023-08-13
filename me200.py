@@ -149,39 +149,6 @@ cat <name file>> : open file
 cat < namefile : create file
 open Terminal in Linux: Using Shortcut(CTRL+ALT+T).
 
-GIT:
-    sudo apt install git
-git --version
-sudo apt install git
-
-sudo apt update
-git init: initialisation of git.
-    git config --global user.name "Your Name"
-    git config --global user.email "youremail@domain.com"
-git config --list
-git config --global core.editor "kate": install editor
-git commit: make commit
-nano: To make the commit you should write your commit message, then press ctrl+o to write your message, and then ctrl+x to exit that screen.
-git log: show history of commits
-git branch: show whats branch
-git branch updata_1: creating new branch(updata_1)
-git checkout updata_1: swiching on new branch(updata_1)
-git checkout -b updata_1: create and swiching on new branch(updata_1)
-git branh -D updata_1: delete branch
-git add <>: add files in commit
-git add.: add all in commit
-git log --graph: show branchs(tree)
-git merge <branch>: merging of branchs
-git clone <https://github.com/Anti2000/car_parser.git> <car_parser> : make up clone from github to computor
-git remote -v: show what is connect to computor.
-git remote add origin <https://github.com/Anti2000/example.git> add shotcut
-git push origin master: add file to server  ???
-git pull origin main: update data from githup
-https://stackoverflow.com/questions/1443210/updating-a-local-repository-with-changes-from-a-github-repository
-git pull --rebase
-Then I push the changes to a remote branch of the same name:
-git push origin FixForBug
-
 
 install vc code:
 sudo snap install --classic code
