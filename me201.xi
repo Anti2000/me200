@@ -47,7 +47,8 @@ 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
 
     PASSWORD: .
     
-          aliexpress Asd25@# .
+          aliexpress https://seller.aliexpress.ru/  anatole.yakovlev@gmail.com  Asd25@# .
+          avito .
 
     FOOD: .
      brain for brain: .
