@@ -44,6 +44,25 @@ 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
           008. math. .
           009. repeat the base. .
           010. write program. .
+          101. wash face. .
+          102. straight up hair. .
+          103. teethbrushing. .
+          104. freshen up. .
+          105. coffee. .
+          106. teapot. .
+          107. cough. .
+          108. exersise. .
+          109. Bible. .
+          110. pray. .
+          111. breakfast. .
+          112. email. .
+          113. plan. .
+          114. question. .
+          115. reading. .
+          117. shoes. .
+          118. dwelling order. .
+          119. db_me. .
+          120. dinner. .
 
     PASSWORD: .
     
@@ -184,19 +203,28 @@ FLUTTER .
     Null safety. .
 
 The Dart language enforces sound null safety. .
-Null safety prevents an error that results from unintentional access of variables set to null. The error is called a null dereference error. A null dereference error occurs when you access a property or call a method on an expression that evaluates to null. An exception to this rule is when null supports the property or method, like toString() or hashCode. With null safety, the Dart compiler detects these potential errors at compile time.
+ Null safety prevents an error that results from unintentional access of variables set to null. .
+ The error is called a null dereference error. A null dereference error occurs when you access .
+ a property or call a method on an expression that evaluates to null. .
+ An exception to this rule is when null supports the property or method, like toString() or hashCode. .
+ With null safety, the Dart compiler detects these potential errors at compile time. .
+ For example, say you want to find the absolute value of an int variable i. .
+ If i is null, calling i.abs() causes a null dereference error. In other languages, .
+ trying this could lead to a runtime error, but Dart’s compiler prohibits these actions. .
+ Therefore, Dart apps can’t cause runtime errors.
 
-For example, say you want to find the absolute value of an int variable i. If i is null, calling i.abs() causes a null dereference error. In other languages, trying this could lead to a runtime error, but Dart’s compiler prohibits these actions. Therefore, Dart apps can’t cause runtime errors.
+Null safety introduces three key changes: .
+ When you specify a type for a variable, parameter, or another relevant component, .
+ you can control whether the type allows null. To enable nullability, you add a ? .
+ to the end of the type declaration. .
+  String? name  // Nullable type. Can be `null` or string. .
+  String name   // Non-nullable type. Cannot be `null` but can be string. .
 
-Null safety introduces three key changes:
-
-    When you specify a type for a variable, parameter, or another relevant component, you can control whether the type allows null. To enable nullability, you add a ? to the end of the type declaration.
-
-    String? name  // Nullable type. Can be `null` or string.
-
-    String name   // Non-nullable type. Cannot be `null` but can be string.
-
-    You must initialize variables before using them. Nullable variables default to null, so they are initialized by default. Dart doesn’t set initial values to non-nullable types. It forces you to set an initial value. Dart doesn’t allow you to observe an uninitialized variable. This prevents you from accessing properties or calling methods where the receiver’s type can be null but null doesn’t support the method or property used.
+ You must initialize variables before using them. Nullable variables default to null, .
+ so they are initialized by default. Dart doesn’t set initial values to non-nullable types. .
+ It forces you to set an initial value. Dart doesn’t allow you to observe an uninitialized variable. 
+ This prevents you from accessing properties or calling methods where the receiver’s type can be null .
+ but null doesn’t support the method or property used.
 
     You can’t access properties or call methods on an expression with a nullable type. The same exception applies where it’s a property or method that null supports like hashCode or toString().
 
