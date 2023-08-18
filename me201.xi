@@ -67,7 +67,7 @@ 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
     PASSWORD: .
     
           aliexpress https://seller.aliexpress.ru/  anatole.yakovlev@gmail.com  Asd25@# .
-          avito novikov.timofey1952@gmail.com 8 995 839-59-17. .
+          avito novikov.timofey1952@gmail.com 8 995 839-59-17. firefox .
           avito 89096009912 . .
           avito .
 
