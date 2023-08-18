@@ -811,6 +811,342 @@ void doSomething() {
 
 Metadata can appear before a library, class, typedef, type parameter, constructor, factory, function, field, parameter, or variable declaration and before an import or export directive. You can retrieve metadata at runtime using reflection.
  
+Libraries & imports
+
+The import and library directives can help you create a modular and shareable code base. Libraries not only provide APIs, but are a unit of privacy: identifiers that start with an underscore (_) are visible only inside the library. Every Dart file (plus its parts) is a library, even if it doesn’t use a library directive.
+
+Libraries can be distributed using packages.
+
+If you’re curious why Dart uses underscores instead of access modifier keywords like public or private, see SDK issue 33383.
+Using libraries
+
+Use import to specify how a namespace from one library is used in the scope of another library.
+
+For example, Dart web apps generally use the dart:html library, which they can import like this:
+
+import 'dart:html';
+
+The only required argument to import is a URI specifying the library. For built-in libraries, the URI has the special dart: scheme. For other libraries, you can use a file system path or the package: scheme. The package: scheme specifies libraries provided by a package manager such as the pub tool. For example:
+
+import 'package:test/test.dart';
+
+Note: URI stands for uniform resource identifier. URLs (uniform resource locators) are a common kind of URI.
+Specifying a library prefix
+
+If you import two libraries that have conflicting identifiers, then you can specify a prefix for one or both libraries. For example, if library1 and library2 both have an Element class, then you might have code like this:
+
+import 'package:lib1/lib1.dart';
+import 'package:lib2/lib2.dart' as lib2;
+
+// Uses Element from lib1.
+Element element1 = Element();
+
+// Uses Element from lib2.
+lib2.Element element2 = lib2.Element();
+
+Importing only part of a library
+
+If you want to use only part of a library, you can selectively import the library. For example:
+
+// Import only foo.
+import 'package:lib1/lib1.dart' show foo;
+
+// Import all names EXCEPT foo.
+import 'package:lib2/lib2.dart' hide foo;
+
+Lazily loading a library
+
+Deferred loading (also called lazy loading) allows a web app to load a library on demand, if and when the library is needed. Here are some cases when you might use deferred loading:
+
+    To reduce a web app’s initial startup time.
+    To perform A/B testing—trying out alternative implementations of an algorithm, for example.
+    To load rarely used functionality, such as optional screens and dialogs.
+
+Only dart compile js supports deferred loading. Flutter and the Dart VM don’t support deferred loading. To learn more, see issue #33118 and issue #27776.
+
+To lazily load a library, you must first import it using deferred as.
+
+import 'package:greetings/hello.dart' deferred as hello;
+
+When you need the library, invoke loadLibrary() using the library’s identifier.
+
+Future<void> greet() async {
+  await hello.loadLibrary();
+  hello.printGreeting();
+}
+
+In the preceding code, the await keyword pauses execution until the library is loaded. For more information about async and await, see asynchrony support.
+
+You can invoke loadLibrary() multiple times on a library without problems. The library is loaded only once.
+
+Keep in mind the following when you use deferred loading:
+
+    A deferred library’s constants aren’t constants in the importing file. Remember, these constants don’t exist until the deferred library is loaded.
+    You can’t use types from a deferred library in the importing file. Instead, consider moving interface types to a library imported by both the deferred library and the importing file.
+    Dart implicitly inserts loadLibrary() into the namespace that you define using deferred as namespace. The loadLibrary() function returns a Future.
+
+The library directive
+
+To specify library-level doc comments or metadata annotations, attach them to a library declaration at the start of the file.
+
+/// A really great test library.
+@TestOn('browser')
+library;
+
+
+Keywords
+
+The following table lists the words that the Dart language treats specially.
+abstract 2 	else 	import 2 	show 1
+as 2 	enum 	in 	static 2
+assert 	export 2 	interface 2 	super
+async 1 	extends 	is 	switch
+await 3 	extension 2 	late 2 	sync 1
+base 2 	external 2 	library 2 	this
+break 	factory 2 	mixin 2 	throw
+case 	false 	new 	true
+catch 	final (variable) 	null 	try
+class 	final (class) 2 	on 1 	typedef 2
+const 	finally 	operator 2 	var
+continue 	for 	part 2 	void
+covariant 2 	Function 2 	required 2 	when
+default 	get 2 	rethrow 	while
+deferred 2 	hide 1 	return 	with
+do 	if 	sealed 2 	yield 3
+dynamic 2 	implements 2 	set 2 	 
+
+Avoid using these words as identifiers. However, if necessary, the keywords marked with superscripts can be identifiers:
+
+    Words with the superscript 1 are contextual keywords, which have meaning only in specific places. They’re valid identifiers everywhere.
+
+    Words with the superscript 2 are built-in identifiers. These keywords are valid identifiers in most places, but they can’t be used as class or type names, or as import prefixes.
+
+    Words with the superscript 3 are limited reserved words related to asynchrony support. You can’t use await or yield as an identifier in any function body marked with async, async*, or sync*.
+
+All other words in the table are reserved words, which can’t be identifiers.
+
+
+Built-in types
+
+The Dart language has special support for the following:
+
+    Numbers (int, double)
+    Strings (String)
+    Booleans (bool)
+    Records ((value1, value2))
+    Lists (List, also known as arrays)
+    Sets (Set)
+    Maps (Map)
+    Runes (Runes; often replaced by the characters API)
+    Symbols (Symbol)
+    The value null (Null)
+
+This support includes the ability to create objects using literals. For example, 'this is a string' is a string literal, and true is a boolean literal.
+
+Because every variable in Dart refers to an object—an instance of a class—you can usually use constructors to initialize variables. Some of the built-in types have their own constructors. For example, you can use the Map() constructor to create a map.
+
+Some other types also have special roles in the Dart language:
+
+    Object: The superclass of all Dart classes except Null.
+    Enum: The superclass of all enums.
+    Future and Stream: Used in asynchrony support.
+    Iterable: Used in for-in loops and in synchronous generator functions.
+    Never: Indicates that an expression can never successfully finish evaluating. Most often used for functions that always throw an exception.
+    dynamic: Indicates that you want to disable static checking. Usually you should use Object or Object? instead.
+    void: Indicates that a value is never used. Often used as a return type.
+
+The Object, Object?, Null, and Never classes have special roles in the class hierarchy. Learn about these roles in Understanding null safety.
+Numbers
+
+Dart numbers come in two flavors:
+
+int
+
+    Integer values no larger than 64 bits, depending on the platform. On native platforms, values can be from -263 to 263 - 1. On the web, integer values are represented as JavaScript numbers (64-bit floating-point values with no fractional part) and can be from -253 to 253 - 1.
+double
+
+    64-bit (double-precision) floating-point numbers, as specified by the IEEE 754 standard.
+
+Both int and double are subtypes of num. The num type includes basic operators such as +, -, /, and *, and is also where you’ll find abs(), ceil(), and floor(), among other methods. (Bitwise operators, such as >>, are defined in the int class.) If num and its subtypes don’t have what you’re looking for, the dart:math library might.
+
+Integers are numbers without a decimal point. Here are some examples of defining integer literals:
+
+var x = 1;
+var hex = 0xDEADBEEF;
+
+If a number includes a decimal, it is a double. Here are some examples of defining double literals:
+
+var y = 1.1;
+var exponents = 1.42e5;
+
+You can also declare a variable as a num. If you do this, the variable can have both integer and double values.
+
+num x = 1; // x can have both int and double values
+x += 2.5;
+
+Integer literals are automatically converted to doubles when necessary:
+
+double z = 1; // Equivalent to double z = 1.0.
+
+Here’s how you turn a string into a number, or vice versa:
+
+// String -> int
+var one = int.parse('1');
+assert(one == 1);
+
+// String -> double
+var onePointOne = double.parse('1.1');
+assert(onePointOne == 1.1);
+
+// int -> String
+String oneAsString = 1.toString();
+assert(oneAsString == '1');
+
+// double -> String
+String piAsString = 3.14159.toStringAsFixed(2);
+assert(piAsString == '3.14');
+
+The int type specifies the traditional bitwise shift (<<, >>, >>>), complement (~), AND (&), OR (|), and XOR (^) operators, which are useful for manipulating and masking flags in bit fields. For example:
+
+assert((3 << 1) == 6); // 0011 << 1 == 0110
+assert((3 | 4) == 7); // 0011 | 0100 == 0111
+assert((3 & 4) == 0); // 0011 & 0100 == 0000
+
+For more examples, see the bitwise and shift operator section.
+
+Literal numbers are compile-time constants. Many arithmetic expressions are also compile-time constants, as long as their operands are compile-time constants that evaluate to numbers.
+
+const msPerSecond = 1000;
+const secondsUntilRetry = 5;
+const msUntilRetry = secondsUntilRetry * msPerSecond;
+
+For more information, see Numbers in Dart.
+Strings
+
+A Dart string (String object) holds a sequence of UTF-16 code units. You can use either single or double quotes to create a string:
+
+var s1 = 'Single quotes work well for string literals.';
+var s2 = "Double quotes work just as well.";
+var s3 = 'It\'s easy to escape the string delimiter.';
+var s4 = "It's even easier to use the other delimiter.";
+
+You can put the value of an expression inside a string by using ${expression}. If the expression is an identifier, you can skip the {}. To get the string corresponding to an object, Dart calls the object’s toString() method.
+
+var s = 'string interpolation';
+
+assert('Dart has $s, which is very handy.' ==
+    'Dart has string interpolation, '
+        'which is very handy.');
+assert('That deserves all caps. '
+        '${s.toUpperCase()} is very handy!' ==
+    'That deserves all caps. '
+        'STRING INTERPOLATION is very handy!');
+
+Note: The == operator tests whether two objects are equivalent. Two strings are equivalent if they contain the same sequence of code units.
+
+You can concatenate strings using adjacent string literals or the + operator:
+
+var s1 = 'String '
+    'concatenation'
+    " works even over line breaks.";
+assert(s1 ==
+    'String concatenation works even over '
+        'line breaks.');
+
+var s2 = 'The + operator ' + 'works, as well.';
+assert(s2 == 'The + operator works, as well.');
+
+Another way to create a multi-line string: use a triple quote with either single or double quotation marks:
+
+var s1 = '''
+You can create
+multi-line strings like this one.
+''';
+
+var s2 = """This is also a
+multi-line string.""";
+
+You can create a “raw” string by prefixing it with r:
+
+var s = r'In a raw string, not even \n gets special treatment.';
+
+See Runes and grapheme clusters for details on how to express Unicode characters in a string.
+
+Literal strings are compile-time constants, as long as any interpolated expression is a compile-time constant that evaluates to null or a numeric, string, or boolean value.
+
+// These work in a const string.
+const aConstNum = 0;
+const aConstBool = true;
+const aConstString = 'a constant string';
+
+// These do NOT work in a const string.
+var aNum = 0;
+var aBool = true;
+var aString = 'a string';
+const aConstList = [1, 2, 3];
+
+const validConstString = '$aConstNum $aConstBool $aConstString';
+// const invalidConstString = '$aNum $aBool $aString $aConstList';
+
+For more information on using strings, check out Strings and regular expressions.
+Booleans
+
+To represent boolean values, Dart has a type named bool. Only two objects have type bool: the boolean literals true and false, which are both compile-time constants.
+
+Dart’s type safety means that you can’t use code like if (nonbooleanValue) or assert (nonbooleanValue). Instead, explicitly check for values, like this:
+
+// Check for an empty string.
+var fullName = '';
+assert(fullName.isEmpty);
+
+// Check for zero.
+var hitPoints = 0;
+assert(hitPoints <= 0);
+
+// Check for null.
+var unicorn = null;
+assert(unicorn == null);
+
+// Check for NaN.
+var iMeantToDoThis = 0 / 0;
+assert(iMeantToDoThis.isNaN);
+
+Runes and grapheme clusters
+
+In Dart, runes expose the Unicode code points of a string. You can use the characters package to view or manipulate user-perceived characters, also known as Unicode (extended) grapheme clusters.
+
+Unicode defines a unique numeric value for each letter, digit, and symbol used in all of the world’s writing systems. Because a Dart string is a sequence of UTF-16 code units, expressing Unicode code points within a string requires special syntax. The usual way to express a Unicode code point is \uXXXX, where XXXX is a 4-digit hexadecimal value. For example, the heart character (♥) is \u2665. To specify more or less than 4 hex digits, place the value in curly brackets. For example, the laughing emoji (😆) is \u{1f606}.
+
+If you need to read or write individual Unicode characters, use the characters getter defined on String by the characters package. The returned Characters object is the string as a sequence of grapheme clusters. Here’s an example of using the characters API:
+
+import 'package:characters/characters.dart';
+
+void main() {
+  var hi = 'Hi 🇩🇰';
+  print(hi);
+  print('The end of the string: ${hi.substring(hi.length - 1)}');
+  print('The last character: ${hi.characters.last}');
+}
+
+The output, depending on your environment, looks something like this:
+
+ dart run bin/main.dart
+Hi 🇩🇰
+The end of the string: ???
+The last character: 🇩🇰
+
+For details on using the characters package to manipulate strings, see the example and API reference for the characters package.
+Symbols
+
+A Symbol object represents an operator or identifier declared in a Dart program. You might never need to use symbols, but they’re invaluable for APIs that refer to identifiers by name, because minification changes identifier names but not identifier symbols.
+
+To get the symbol for an identifier, use a symbol literal, which is just # followed by the identifier:
+
+#radix
+#bar
+
+Symbol literals are compile-time constants.
+
   Control flow statements. .
 
  Dart supports the usual control flow statements: .
@@ -851,280 +1187,304 @@ Metadata can appear before a library, class, typedef, type parameter, constructo
  Besides showing an anonymous function (the argument to where()), this code shows that you can use a function as an argument: .
  the top-level print() function is an argument to forEach(). .
 
- Loops
+  Loops. .
 
-This page shows how you can control the flow of your Dart code using loops and supporting statements:
+ This page shows how you can control the flow of your Dart code using loops and supporting statements: .
 
-    for loops
-    while and do while loops
-    break and continue
+for loops .
+while and do while loops .
+break and continue .
 
-You can also manipulate control flow in Dart using:
+ You can also manipulate control flow in Dart using: .
 
-    Branching, like if and switch
-    Exceptions, like try, catch, and throw
+Branching, like if and switch .
+Exceptions, like try, catch, and throw. .
 
-For loops
+  For loops. .
 
-You can iterate with the standard for loop. For example:
+ You can iterate with the standard for loop. For example: .
 
-var message = StringBuffer('Dart is fun');
-for (var i = 0; i < 5; i++) {
-  message.write('!');
-}
+| var message = StringBuffer('Dart is fun');
+| for (var i = 0; i < 5; i++) {
+|  message.write('!');
+| }
 
-Closures inside of Dart’s for loops capture the value of the index. This avoids a common pitfall found in JavaScript. For example, consider:
+ Closures inside of Dart’s for loops capture the value of the index. This avoids a common pitfall .
+ found in JavaScript. For example, consider: .
 
-var callbacks = [];
-for (var i = 0; i < 2; i++) {
-  callbacks.add(() => print(i));
-}
+| var callbacks = [];
+| for (var i = 0; i < 2; i++) {
+|   callbacks.add(() => print(i));
+| }
 
-for (final c in callbacks) {
-  c();
-}
+| for (final c in callbacks) {
+|   c();
+| }
 
-The output is 0 and then 1, as expected. In contrast, the example would print 2 and then 2 in JavaScript.
+ The output is 0 and then 1, as expected. In contrast, the example would print 2 and then 2 in JavaScript. .
 
-Sometimes you might not need to know the current iteration counter when iterating over an Iterable type, like List or Set. In that case, use the for-in loop for cleaner code:
+ Sometimes you might not need to know the current iteration counter when iterating over an Iterable type, .
+ like List or Set. In that case, use the for-in loop for cleaner code: .
 
-for (final candidate in candidates) {
-  candidate.interview();
-}
+| for (final candidate in candidates) {
+|   candidate.interview();
+| }
 
-To process the values obtained from the iterable, you can also use a pattern in a for-in loop:
+ To process the values obtained from the iterable, you can also use a pattern in a for-in loop: .
 
-for (final Candidate(:name, :yearsExperience) in candidates) {
-  print('$name has $yearsExperience of experience.');
-}
+| for (final Candidate(:name, :yearsExperience) in candidates) {
+|   print('$name has $yearsExperience of experience.');
+| }
 
-Tip: To practice using for-in, follow the Iterable collections codelab.
+ Tip: To practice using for-in, follow the Iterable collections codelab. .
 
-Iterable classes also have a forEach() method as another option:
+ Iterable classes also have a forEach() method as another option: .
 
-var collection = [1, 2, 3];
-collection.forEach(print); // 1 2 3
+| var collection = [1, 2, 3];
+| collection.forEach(print); // 1 2 3
 
-While and do-while
+  While and do-while. .
 
-A while loop evaluates the condition before the loop:
+ A while loop evaluates the condition before the loop: .
 
-while (!isDone()) {
-  doSomething();
-}
+| while (!isDone()) {
+|   doSomething();
+| }
 
-A do-while loop evaluates the condition after the loop:
+ A do-while loop evaluates the condition after the loop: .
 
-do {
-  printLine();
-} while (!atEndOfPage());
+| do {
+|   printLine();
+| } while (!atEndOfPage());
 
-Break and continue
+ Break and continue. .
 
-Use break to stop looping:
+ Use break to stop looping: .
 
-while (true) {
-  if (shutDownRequested()) break;
-  processIncomingRequests();
-}
+| while (true) {
+|   if (shutDownRequested()) break;
+|   processIncomingRequests();
+| }
 
-Use continue to skip to the next loop iteration:
+ Use continue to skip to the next loop iteration: .
 
-for (int i = 0; i < candidates.length; i++) {
-  var candidate = candidates[i];
-  if (candidate.yearsExperience < 5) {
-    continue;
-  }
-  candidate.interview();
-}
+| for (int i = 0; i < candidates.length; i++) {
+|   var candidate = candidates[i];
+|   if (candidate.yearsExperience < 5) {
+|     continue;
+|   }
+|   candidate.interview();
+| }
 
-If you’re using an Iterable such as a list or set, how you write the previous example might differ:
+ If you’re using an Iterable such as a list or set, how you write the previous example might differ: .
 
-candidates
-    .where((c) => c.yearsExperience >= 5)
-    .forEach((c) => c.interview());
+| candidates
+|     .where((c) => c.yearsExperience >= 5)
+|     .forEach((c) => c.interview());
 
-Branches
+  Branches. .
 
-This page shows how you can control the flow of your Dart code using branches:
+ This page shows how you can control the flow of your Dart code using branches: .
 
-    if statements and elements
-    if-case statements and elements
-    switch statements and expressions
+if statements and elements .
+if-case statements and elements .
+switch statements and expressions .
+
+ You can also manipulate control flow in Dart using: .
+
+Loops, like for and while .
+Exceptions, like try, catch, and throw .
+
+  If. .
+
+ Dart supports if statements with optional else clauses. The condition in parentheses after .
+ if must be an expression that evaluates to a boolean: .
 
-You can also manipulate control flow in Dart using:
-
-    Loops, like for and while
-    Exceptions, like try, catch, and throw
-
-If
-
-Dart supports if statements with optional else clauses. The condition in parentheses after if must be an expression that evaluates to a boolean:
-
-if (isRaining()) {
-  you.bringRainCoat();
-} else if (isSnowing()) {
-  you.wearJacket();
-} else {
-  car.putTopDown();
-}
-
-To learn how to use if in an expression context, check out Conditional expressions.
-If-case
-
-Dart if statements support case clauses followed by a pattern:
-
-if (pair case [int x, int y]) return Point(x, y);
-
-If the pattern matches the value, then the branch executes with any variables the pattern defines in scope.
-
-In the previous example, the list pattern [int x, int y] matches the value pair, so the branch return Point(x, y) executes with the variables that the pattern defined, x and y.
-
-Otherwise, control flow progresses to the else branch to execute, if there is one:
-
-if (pair case [int x, int y]) {
-  print('Was coordinate array $x,$y');
-} else {
-  throw FormatException('Invalid coordinates.');
-}
-
-The if-case statement provides a way to match and destructure against a single pattern. To test a value against multiple patterns, use switch.
-
-Version note: Case clauses in if statements require a language version of at least 3.0.
-
-Switch statements
-
-A switch statement evaluates a value expression against a series of cases. Each case clause is a pattern for the value to match against. You can use any kind of pattern for a case.
-
-When the value matches a case’s pattern, the case body executes. Non-empty case clauses jump to the end of the switch after completion. They do not require a break statement. Other valid ways to end a non-empty case clause are a continue, throw, or return statement.
-
-Use a default or wildcard _ clause to execute code when no case clause matches:
-
-var command = 'OPEN';
-switch (command) {
-  case 'CLOSED':
-    executeClosed();
-  case 'PENDING':
-    executePending();
-  case 'APPROVED':
-    executeApproved();
-  case 'DENIED':
-    executeDenied();
-  case 'OPEN':
-    executeOpen();
-  default:
-    executeUnknown();
-}
-
-Empty cases fall through to the next case. For an empty case that does not fall through, use break for its body. For non-sequential fall-through, you can use a continue statement and a label:
-
-switch (command) {
-  case 'OPEN':
-    executeOpen();
-    continue newCase; // Continues executing at the newCase label.
-
-  case 'DENIED': // Empty case falls through.
-  case 'CLOSED':
-    executeClosed(); // Runs for both DENIED and CLOSED,
-
-  newCase:
-  case 'PENDING':
-    executeNowClosed(); // Runs for both OPEN and PENDING.
-}
-
-You can use logical-or patterns to allow cases to share a body or a guard. To learn more about patterns and case clauses, check out the patterns documentation on Switch statements and expressions.
-Switch expressions
-
-A switch expression produces a value based on the expression body of whichever case matches. You can use a switch expression wherever Dart allows expressions, except at the start of an expression statement. For example:
-
-var x = switch (y) { ... };
-
-print(switch (x) { ... });
-
-return switch (x) { ... };
-
-If you want to use a switch at the start of an expression statement, use a switch statement.
-
-Switch expressions allow you to rewrite a switch statement like this:
-
-// Where slash, star, comma, semicolon, etc., are constant variables...
-switch (charCode) {
-  case slash || star || plus || minus: // Logical-or pattern
-    token = operator(charCode);
-  case comma || semicolon: // Logical-or pattern
-    token = punctuation(charCode);
-  case >= digit0 && <= digit9: // Relational and logical-and patterns
-    token = number();
-  default:
-    throw FormatException('Invalid');
-}
-
-Into an expression, like this:
-
-token = switch (charCode) {
-  slash || star || plus || minus => operator(charCode),
-  comma || semicolon => punctuation(charCode),
-  >= digit0 && <= digit9 => number(),
-  _ => throw FormatException('Invalid')
-};
-
-The syntax of a switch expression differs from switch statement syntax:
-
-    Cases do not start with the case keyword.
-    A case body is a single expression instead of a series of statements.
-    Each case must have a body; there is no implicit fallthrough for empty cases.
-    Case patterns are separated from their bodies using => instead of :.
-    Cases are separated by , (and an optional trailing , is allowed).
-    Default cases can only use _, instead of allowing both default and _.
-
-Version note: Switch expressions require a language version of at least 3.0.
-Exhaustiveness checking
-
-Exhaustiveness checking is a feature that reports a compile-time error if it’s possible for a value to enter a switch but not match any of the cases.
-
-// Non-exhaustive switch on bool?, missing case to match null possibility:
-switch (nullableBool) {
-  case true:
-    print('yes');
-  case false:
-    print('no');
-}
-
-A default case (default or _) covers all possible values that can flow through a switch. This makes a switch on any type exhaustive.
-
-Enums and sealed types are particularly useful for switches because, even without a default case, their possible values are known and fully enumerable. Use the sealed modifier on a class to enable exhaustiveness checking when switching over subtypes of that class:
-
-sealed class Shape {}
-
-class Square implements Shape {
-  final double length;
-  Square(this.length);
-}
-
-class Circle implements Shape {
-  final double radius;
-  Circle(this.radius);
-}
-
-double calculateArea(Shape shape) => switch (shape) {
-      Square(length: var l) => l * l,
-      Circle(radius: var r) => math.pi * r * r
-    };
-
-If anyone were to add a new subclass of Shape, this switch expression would be incomplete. Exhaustiveness checking would inform you of the missing subtype. This allows you to use Dart in a somewhat functional algebraic datatype style.
-
-Guard clause
-
-To set an optional guard clause after a case clause, use the keyword when. A guard clause can follow if case, and both switch statements and expressions.
-
-switch (pair) {
-  case (int a, int b) when a > b:
-    print('First element greater');
-  case (int a, int b):
-    print('First element not greater');
-}
-
-Guards evaluate an arbitrary boolean expression after matching. This allows you to add further constraints on whether a case body should execute. When the guard clause evaluates to false, execution proceeds to the next case rather than exiting the entire switch.
+| if (isRaining()) {
+|   you.bringRainCoat();
+| } else if (isSnowing()) {
+|   you.wearJacket();
+| } else {
+|   car.putTopDown();
+| }
+
+ To learn how to use if in an expression context, check out Conditional expressions. .
+
+  If-case. .
+
+ Dart if statements support case clauses followed by a pattern: .
+
+| if (pair case [int x, int y]) return Point(x, y);
+
+ If the pattern matches the value, then the branch executes with any variables the pattern defines in scope. .
+
+ In the previous example, the list pattern [int x, int y] matches the value pair, .
+ so the branch return Point(x, y) executes with the variables that the pattern defined, x and y. .
+
+ Otherwise, control flow progresses to the else branch to execute, if there is one: .
+
+| if (pair case [int x, int y]) {
+|   print('Was coordinate array $x,$y');
+| } else {
+|   throw FormatException('Invalid coordinates.');
+| }
+
+ The if-case statement provides a way to match and destructure against a single pattern. .
+ To test a value against multiple patterns, use switch. .
+
+ Version note: Case clauses in if statements require a language version of at least 3.0. .
+
+  Switch statements. .
+
+ A switch statement evaluates a value expression against a series of cases. .
+ Each case clause is a pattern for the value to match against. You can use any kind of pattern for a case. .
+
+ When the value matches a case’s pattern, the case body executes. .Non-empty case clauses jump to the end .
+ of the switch after completion. They do not require a break statement. Other valid ways to end .
+ a non-empty case clause are a continue, throw, or return statement. .
+ 
+ Use a default or wildcard _ clause to execute code when no case clause matches: .
+
+| var command = 'OPEN';
+| switch (command) {
+|   case 'CLOSED':
+|     executeClosed();
+|   case 'PENDING':
+|     executePending();
+|   case 'APPROVED':
+|     executeApproved();
+|   case 'DENIED':
+|     executeDenied();
+|   case 'OPEN':
+|     executeOpen();
+|   default:
+|     executeUnknown();
+| }
+
+ Empty cases fall through to the next case. For an empty case that does not fall through, .
+ use break for its body. For non-sequential fall-through, you can use a continue statement and a label: .
+
+| switch (command) {
+|   case 'OPEN':
+|     executeOpen();
+|     continue newCase; // Continues executing at the newCase label.
+| 
+|   case 'DENIED': // Empty case falls through.
+|   case 'CLOSED':
+|     executeClosed(); // Runs for both DENIED and CLOSED,
+| 
+|   newCase:
+|   case 'PENDING':
+|     executeNowClosed(); // Runs for both OPEN and PENDING.
+| }
+
+ You can use logical-or patterns to allow cases to share a body or a guard. To learn more about patterns .
+ and case clauses, check out the patterns documentation on Switch statements and expressions. .
+
+  Switch expressions. .
+
+ A switch expression produces a value based on the expression body of whichever case matches. .
+ You can use a switch expression wherever Dart allows expressions, except at the start of an .
+ expression statement. For example: .
+
+| var x = switch (y) { ... };
+| 
+| print(switch (x) { ... });
+| 
+| return switch (x) { ... };
+
+ If you want to use a switch at the start of an expression statement, use a switch statement. .
+
+ Switch expressions allow you to rewrite a switch statement like this: .
+
+| // Where slash, star, comma, semicolon, etc., are constant variables...
+| switch (charCode) {
+|   case slash || star || plus || minus: // Logical-or pattern
+|     token = operator(charCode);
+|   case comma || semicolon: // Logical-or pattern
+|     token = punctuation(charCode);
+|   case >= digit0 && <= digit9: // Relational and logical-and patterns
+|     token = number();
+|   default:
+|     throw FormatException('Invalid');
+| }
+
+ Into an expression, like this: .
+
+| token = switch (charCode) {
+|   slash || star || plus || minus => operator(charCode),
+|   comma || semicolon => punctuation(charCode),
+|   >= digit0 && <= digit9 => number(),
+|   _ => throw FormatException('Invalid')
+| };
+
+ The syntax of a switch expression differs from switch statement syntax: .
+
+Cases do not start with the case keyword. .
+A case body is a single expression instead of a series of statements. .
+Each case must have a body; there is no implicit fallthrough for empty cases. .
+Case patterns are separated from their bodies using => instead of :. .
+Cases are separated by , (and an optional trailing , is allowed). .
+Default cases can only use _, instead of allowing both default and _. .
+
+ Version note: Switch expressions require a language version of at least 3.0. .
+
+  Exhaustiveness checking. .
+
+ Exhaustiveness checking is a feature that reports a compile-time error if it’s possible .
+ for a value to enter a switch but not match any of the cases. .
+
+| // Non-exhaustive switch on bool?, missing case to match null possibility:
+| switch (nullableBool) {
+|   case true:
+|     print('yes');
+|   case false:
+|     print('no');
+| }
+
+ A default case (default or _) covers all possible values that can flow through a switch. .
+ This makes a switch on any type exhaustive. .
+
+ Enums and sealed types are particularly useful for switches because, even without a default case, .
+ their possible values are known and fully enumerable. Use the sealed modifier on a class to enable .
+ exhaustiveness checking when switching over subtypes of that class: .
+
+| sealed class Shape {}
+
+| class Square implements Shape {
+|   final double length;
+|   Square(this.length);
+| }
+
+| class Circle implements Shape {
+|   final double radius;
+|   Circle(this.radius);
+| }
+
+| double calculateArea(Shape shape) => switch (shape) {
+|       Square(length: var l) => l * l,
+|       Circle(radius: var r) => math.pi * r * r
+|     };
+
+ If anyone were to add a new subclass of Shape, this switch expression would be incomplete. .
+ Exhaustiveness checking would inform you of the missing subtype. This allows you to use Dart .
+ in a somewhat functional algebraic datatype style. .
+
+  Guard clause. .
+
+ To set an optional guard clause after a case clause, use the keyword when. A guard clause can follow if case, .
+ and both switch statements and expressions. .
+
+| switch (pair) {
+|   case (int a, int b) when a > b:
+|     print('First element greater');
+|   case (int a, int b):
+|     print('First element not greater');
+| }
+
+ Guards evaluate an arbitrary boolean expression after matching. This allows you to add further constraints .
+ on whether a case body should execute. When the guard clause evaluates to false, execution proceeds .
+ to the next case rather than exiting the entire switch. .
 
   Comments. .
 
