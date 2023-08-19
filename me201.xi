@@ -8,20 +8,6 @@
 
 69.5 126.5
 
-Сковорода
-Подсолнечное масло
-Колбаса нарезка
-Яйца.10.
-Хлеб.
-Веник
-
-
-
-941574
-Адреей Борисович
-Расковой 55
-
-89228506987 Александр водоканал.
 Гидроизоляция жидкая боларс 10л.
 Гипсокартон влагостойкий 12,5мм-5шт 
 Профиль п-образный 28х28мм-5шт
@@ -285,8 +271,8 @@ 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
     
           aliexpress https://seller.aliexpress.ru/  anatole.yakovlev@gmail.com  Asd25@# .
           avito novikov.timofey1952@gmail.com 8 995 839-59-17. firefox .
-          avito 89096009912 . .
-          avito .
+          avito 89096009912 chrome. .
+          avito yandex. .
 
     FOOD: .
      brain for brain: .
@@ -929,180 +915,212 @@ You can also nest cascades. For example: .
 |   ! 	    Null assertion operator 	     Casts an expression to its underlying non-nullable type, throwing a runtime exception if the cast fails; example: foo!.bar asserts foo is non-null and selects the property bar, unless foo is null in which case a runtime exception is thrown
 
 
-Comments
+  Comments. .
 
-Dart supports single-line comments, multi-line comments, and documentation comments.
-Single-line comments
+ Dart supports single-line comments, multi-line comments, and documentation comments. .
+    Single-line comments. .
 
-A single-line comment begins with //. Everything between // and the end of line is ignored by the Dart compiler.
+A single-line comment begins with //. Everything between // and the end of line .
+is ignored by the Dart compiler. .
 
-void main() {
-  // TODO: refactor into an AbstractLlamaGreetingFactory?
-  print('Welcome to my Llama farm!');
-}
+| void main() {
+|   // TODO: refactor into an AbstractLlamaGreetingFactory?
+|   print('Welcome to my Llama farm!');
+| }
 
-Multi-line comments
+    Multi-line comments. .
 
-A multi-line comment begins with /* and ends with */. Everything between /* and */ is ignored by the Dart compiler (unless the comment is a documentation comment; see the next section). Multi-line comments can nest.
+ A multi-line comment begins with /* and ends with */. Everything between /* and */ is .
+ ignored by the Dart compiler (unless the comment is a documentation comment; see the next section). .
+ Multi-line comments can nest. .
 
-void main() {
-  /*
-   * This is a lot of work. Consider raising chickens.
+| void main() {
+|   /*
+|    * This is a lot of work. Consider raising chickens.
 
-  Llama larry = Llama();
-  larry.feed();
-  larry.exercise();
-  larry.clean();
-   */
-}
+|   Llama larry = Llama();
+|   larry.feed();
+|   larry.exercise();
+|   larry.clean();
+|    */
+| }
 
-Documentation comments
+    Documentation comments. .
 
-Documentation comments are multi-line or single-line comments that begin with /// or /**. Using /// on consecutive lines has the same effect as a multi-line doc comment.
+ Documentation comments are multi-line or single-line comments that begin with /// or /**. .
+ Using /// on consecutive lines has the same effect as a multi-line doc comment. .
 
-Inside a documentation comment, the analyzer ignores all text unless it is enclosed in brackets. Using brackets, you can refer to classes, methods, fields, top-level variables, functions, and parameters. The names in brackets are resolved in the lexical scope of the documented program element.
+ Inside a documentation comment, the analyzer ignores all text unless it is enclosed in brackets. .
+ Using brackets, you can refer to classes, methods, fields, top-level variables, functions, .
+ and parameters. The names in brackets are resolved in the lexical scope of the documented program element. .
 
-Here is an example of documentation comments with references to other classes and arguments:
+ Here is an example of documentation comments with references to other classes and arguments: .
 
-/// A domesticated South American camelid (Lama glama).
-///
-/// Andean cultures have used llamas as meat and pack
-/// animals since pre-Hispanic times.
-///
-/// Just like any other animal, llamas need to eat,
-/// so don't forget to [feed] them some [Food].
-class Llama {
-  String? name;
+| /// A domesticated South American camelid (Lama glama).
+| ///
+| /// Andean cultures have used llamas as meat and pack
+| /// animals since pre-Hispanic times.
+| ///
+| /// Just like any other animal, llamas need to eat,
+| /// so don't forget to [feed] them some [Food].
+| class Llama {
+|   String? name;
 
-  /// Feeds your llama [food].
-  ///
-  /// The typical llama eats one bale of hay per week.
-  void feed(Food food) {
-    // ...
-  }
+|   /// Feeds your llama [food].
+|   ///
+|   /// The typical llama eats one bale of hay per week.
+|   void feed(Food food) {
+|     // ...
+|   }
+| 
+|   /// Exercises your llama with an [activity] for
+|   /// [timeLimit] minutes.
+|   void exercise(Activity activity, int timeLimit) {
+|     // ...
+|   }
+| }
 
-  /// Exercises your llama with an [activity] for
-  /// [timeLimit] minutes.
-  void exercise(Activity activity, int timeLimit) {
-    // ...
-  }
-}
+ In the class’s generated documentation, [feed] becomes a link to the docs for the feed method, .
+ and [Food] becomes a link to the docs for the Food class. .
 
-In the class’s generated documentation, [feed] becomes a link to the docs for the feed method, and [Food] becomes a link to the docs for the Food class.
-
-To parse Dart code and generate HTML documentation, you can use Dart’s documentation generation tool, dart doc. For an example of generated documentation, see the Dart API documentation. For advice on how to structure your comments, see Effective Dart: Documentation.
+ To parse Dart code and generate HTML documentation, you can use Dart’s documentation .
+ generation tool, dart doc. For an example of generated documentation, see the Dart API .
+ documentation. For advice on how to structure your comments, see Effective Dart: Documentation. .
  
- Metadata
+  Metadata. .
 
-Use metadata to give additional information about your code. A metadata annotation begins with the character @, followed by either a reference to a compile-time constant (such as deprecated) or a call to a constant constructor.
+ Use metadata to give additional information about your code. A metadata annotation .
+ begins with the character @, followed by either a reference to a compile-time constant .
+ (such as deprecated) or a call to a constant constructor. .
 
-Three annotations are available to all Dart code: @Deprecated, @deprecated, and @override. For examples of using @override, see Extending a class. Here’s an example of using the @Deprecated annotation:
+ Three annotations are available to all Dart code: @Deprecated, @deprecated, and @override. .
+ For examples of using @override, see Extending a class. Here’s an example of using .
+ the @Deprecated annotation: .
 
-class Television {
-  /// Use [turnOn] to turn the power on instead.
-  @Deprecated('Use turnOn instead')
-  void activate() {
-    turnOn();
-  }
+| class Television {
+|   /// Use [turnOn] to turn the power on instead.
+|   @Deprecated('Use turnOn instead')
+|   void activate() {
+|     turnOn();
+|   }
 
-  /// Turns the TV's power on.
-  void turnOn() {...}
-  // ···
-}
+|   /// Turns the TV's power on.
+|   void turnOn() {...}
+|   // ···
+| }
 
-You can define your own metadata annotations. Here’s an example of defining a @Todo annotation that takes two arguments:
+ You can define your own metadata annotations. Here’s an example of defining a @Todo annotation that .
+ takes two arguments: .
 
-class Todo {
-  final String who;
-  final String what;
+| class Todo {
+|   final String who;
+|   final String what;
+| 
+|   const Todo(this.who, this.what);
+| }
 
-  const Todo(this.who, this.what);
-}
+ And here’s an example of using that @Todo annotation: .
 
-And here’s an example of using that @Todo annotation:
+| @Todo('Dash', 'Implement this function')
+| void doSomething() {
+|   print('Do something');
+| }
 
-@Todo('Dash', 'Implement this function')
-void doSomething() {
-  print('Do something');
-}
-
-Metadata can appear before a library, class, typedef, type parameter, constructor, factory, function, field, parameter, or variable declaration and before an import or export directive. You can retrieve metadata at runtime using reflection.
+ Metadata can appear before a library, class, typedef, type parameter, constructor, factory, .
+ function, field, parameter, or variable declaration and before an import or export directive. .
+ You can retrieve metadata at runtime using reflection. .
  
-Libraries & imports
+  Libraries & imports. .
 
-The import and library directives can help you create a modular and shareable code base. Libraries not only provide APIs, but are a unit of privacy: identifiers that start with an underscore (_) are visible only inside the library. Every Dart file (plus its parts) is a library, even if it doesn’t use a library directive.
+ The import and library directives can help you create a modular and shareable code base. .
+ Libraries not only provide APIs, but are a unit of privacy: identifiers that start with .
+ an underscore (_) are visible only inside the library. Every Dart file (plus its parts) .
+ is a library, even if it doesn’t use a library directive. .
 
-Libraries can be distributed using packages.
+ Libraries can be distributed using packages. .
 
-If you’re curious why Dart uses underscores instead of access modifier keywords like public or private, see SDK issue 33383.
-Using libraries
+ If you’re curious why Dart uses underscores instead of access modifier keywords like .
+ public or private, see SDK issue 33383. .
 
-Use import to specify how a namespace from one library is used in the scope of another library.
+    Using libraries. .
 
-For example, Dart web apps generally use the dart:html library, which they can import like this:
+ Use import to specify how a namespace from one library is used in the scope of another library. .
 
-import 'dart:html';
+ For example, Dart web apps generally use the dart:html library, which they can import like this: .
 
-The only required argument to import is a URI specifying the library. For built-in libraries, the URI has the special dart: scheme. For other libraries, you can use a file system path or the package: scheme. The package: scheme specifies libraries provided by a package manager such as the pub tool. For example:
+| import 'dart:html';
 
-import 'package:test/test.dart';
+ The only required argument to import is a URI specifying the library. For built-in libraries, .
+ the URI has the special dart: scheme. For other libraries, you can use a file system path or .
+ the package: scheme. The package: scheme specifies libraries provided by a package manager such .
+ as the pub tool. For example: .
 
-Note: URI stands for uniform resource identifier. URLs (uniform resource locators) are a common kind of URI.
-Specifying a library prefix
+| import 'package:test/test.dart';
 
-If you import two libraries that have conflicting identifiers, then you can specify a prefix for one or both libraries. For example, if library1 and library2 both have an Element class, then you might have code like this:
+ Note: URI stands for uniform resource identifier. URLs (uniform resource locators) are a common kind of URI. .
 
-import 'package:lib1/lib1.dart';
-import 'package:lib2/lib2.dart' as lib2;
+    Specifying a library prefix. .
 
-// Uses Element from lib1.
-Element element1 = Element();
+ If you import two libraries that have conflicting identifiers, then you can specify a prefix .
+ for one or both libraries. For example, if library1 and library2 both have an Element class, .
+ then you might have code like this: .
 
-// Uses Element from lib2.
-lib2.Element element2 = lib2.Element();
+| import 'package:lib1/lib1.dart'; 
+| import 'package:lib2/lib2.dart' as lib2;
 
-Importing only part of a library
+| // Uses Element from lib1.
+| Element element1 = Element();
 
-If you want to use only part of a library, you can selectively import the library. For example:
+| // Uses Element from lib2.
+| lib2.Element element2 = lib2.Element();
 
-// Import only foo.
-import 'package:lib1/lib1.dart' show foo;
+| Importing only part of a library
 
-// Import all names EXCEPT foo.
-import 'package:lib2/lib2.dart' hide foo;
+ If you want to use only part of a library, you can selectively import the library. For example: .
 
-Lazily loading a library
+| // Import only foo.
+| import 'package:lib1/lib1.dart' show foo;
 
-Deferred loading (also called lazy loading) allows a web app to load a library on demand, if and when the library is needed. Here are some cases when you might use deferred loading:
+| // Import all names EXCEPT foo.
+| import 'package:lib2/lib2.dart' hide foo;
 
-    To reduce a web app’s initial startup time.
-    To perform A/B testing—trying out alternative implementations of an algorithm, for example.
-    To load rarely used functionality, such as optional screens and dialogs.
+ Lazily loading a library. .
 
-Only dart compile js supports deferred loading. Flutter and the Dart VM don’t support deferred loading. To learn more, see issue #33118 and issue #27776.
+ Deferred loading (also called lazy loading) allows a web app to load a library on demand, .
+ if and when the library is needed. Here are some cases when you might use deferred loading: .
 
-To lazily load a library, you must first import it using deferred as.
+To reduce a web app’s initial startup time. .
+To perform A/B testing—trying out alternative implementations of an algorithm, for example. .
+To load rarely used functionality, such as optional screens and dialogs. .
 
-import 'package:greetings/hello.dart' deferred as hello;
+ Only dart compile js supports deferred loading. Flutter and the Dart VM don’t support deferred loading. .
+ To learn more, see issue #33118 and issue #27776. .
 
-When you need the library, invoke loadLibrary() using the library’s identifier.
+ To lazily load a library, you must first import it using deferred as. .
 
-Future<void> greet() async {
-  await hello.loadLibrary();
-  hello.printGreeting();
-}
+| import 'package:greetings/hello.dart' deferred as hello;
 
-In the preceding code, the await keyword pauses execution until the library is loaded. For more information about async and await, see asynchrony support.
+ When you need the library, invoke loadLibrary() using the library’s identifier. .
 
-You can invoke loadLibrary() multiple times on a library without problems. The library is loaded only once.
+| Future<void> greet() async {
+|   await hello.loadLibrary();
+|   hello.printGreeting();
+| }
 
-Keep in mind the following when you use deferred loading:
+ In the preceding code, the await keyword pauses execution until the library is loaded. .
+ For more information about async and await, see asynchrony support. .
 
-    A deferred library’s constants aren’t constants in the importing file. Remember, these constants don’t exist until the deferred library is loaded.
-    You can’t use types from a deferred library in the importing file. Instead, consider moving interface types to a library imported by both the deferred library and the importing file.
-    Dart implicitly inserts loadLibrary() into the namespace that you define using deferred as namespace. The loadLibrary() function returns a Future.
+ You can invoke loadLibrary() multiple times on a library without problems. The library is loaded only once. .
 
-The library directive
+ Keep in mind the following when you use deferred loading: .
+
+ A deferred library’s constants aren’t constants in the importing file. Remember, these constants don’t .
+ exist until the deferred library is loaded. You can’t use types from a deferred library in the .
+ importing file. Instead, consider moving interface types to a library imported by both .
+ the deferred library and the importing file. Dart implicitly inserts loadLibrary() into .
+ the namespace that you define using deferred as namespace. The loadLibrary() function returns a Future. .
+
+    The library directive. .
 
 To specify library-level doc comments or metadata annotations, attach them to a library declaration at the start of the file.
 
