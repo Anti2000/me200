@@ -1042,43 +1042,51 @@ Avoid using these words as identifiers. However, if necessary, the keywords mark
 All other words in the table are reserved words, which can’t be identifiers.
 
 
-Built-in types
+  Built-in types. .
 
-The Dart language has special support for the following:
+ The Dart language has special support for the following: .
 
-    Numbers (int, double)
-    Strings (String)
-    Booleans (bool)
-    Records ((value1, value2))
-    Lists (List, also known as arrays)
-    Sets (Set)
-    Maps (Map)
-    Runes (Runes; often replaced by the characters API)
-    Symbols (Symbol)
-    The value null (Null)
+ Numbers (int, double) .
+ Strings (String) .
+ Booleans (bool) .
+ Records ((value1, value2)) .
+ Lists (List, also known as arrays) .
+ Sets (Set) .
+ Maps (Map) .
+ Runes (Runes; often replaced by the characters API) .
+ Symbols (Symbol) .
+ The value null (Null) .
 
-This support includes the ability to create objects using literals. For example, 'this is a string' is a string literal, and true is a boolean literal.
+ This support includes the ability to create objects using literals. For example, .
+ 'this is a string' is a string literal, and true is a boolean literal. .
 
-Because every variable in Dart refers to an object—an instance of a class—you can usually use constructors to initialize variables. Some of the built-in types have their own constructors. For example, you can use the Map() constructor to create a map.
+ Because every variable in Dart refers to an object—an instance of a class—you can usually use .
+ constructors to initialize variables. Some of the built-in types have their own constructors. .
+ For example, you can use the Map() constructor to create a map. .
 
-Some other types also have special roles in the Dart language:
+ Some other types also have special roles in the Dart language: .
 
-    Object: The superclass of all Dart classes except Null.
-    Enum: The superclass of all enums.
-    Future and Stream: Used in asynchrony support.
-    Iterable: Used in for-in loops and in synchronous generator functions.
-    Never: Indicates that an expression can never successfully finish evaluating. Most often used for functions that always throw an exception.
-    dynamic: Indicates that you want to disable static checking. Usually you should use Object or Object? instead.
-    void: Indicates that a value is never used. Often used as a return type.
+     Object: The superclass of all Dart classes except Null. .
+     Enum: The superclass of all enums. .
+     Future and Stream: Used in asynchrony support. .
+     Iterable: Used in for-in loops and in synchronous generator functions. .
+     Never: Indicates that an expression can never successfully finish evaluating. .
+     Most often used for functions that always throw an exception.
+     dynamic: Indicates that you want to disable static checking. Usually you should .
+     use Object or Object? instead. .
+     void: Indicates that a value is never used. Often used as a return type.
 
-The Object, Object?, Null, and Never classes have special roles in the class hierarchy. Learn about these roles in Understanding null safety.
-Numbers
+ The Object, Object?, Null, and Never classes have special roles in the class hierarchy. .
+ Learn about these roles in Understanding null safety.
 
-Dart numbers come in two flavors:
+    Numbers. .
 
-int
+ Dart numbers come in two flavors: .
 
-    Integer values no larger than 64 bits, depending on the platform. On native platforms, values can be from -263 to 263 - 1. On the web, integer values are represented as JavaScript numbers (64-bit floating-point values with no fractional part) and can be from -253 to 253 - 1.
+int. .
+
+ Integer values no larger than 64 bits, depending on the platform. On native platforms, .
+values can be from -263 to 263 - 1. On the web, integer values are represented as JavaScript numbers (64-bit floating-point values with no fractional part) and can be from -253 to 253 - 1.
 double
 
     64-bit (double-precision) floating-point numbers, as specified by the IEEE 754 standard.
