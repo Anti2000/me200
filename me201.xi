@@ -1086,160 +1086,183 @@ All other words in the table are reserved words, which can’t be identifiers.
 int. .
 
  Integer values no larger than 64 bits, depending on the platform. On native platforms, .
-values can be from -263 to 263 - 1. On the web, integer values are represented as JavaScript numbers (64-bit floating-point values with no fractional part) and can be from -253 to 253 - 1.
-double
+ values can be from -263 to 263 - 1. On the web, integer values are represented as JavaScript numbers .
+ (64-bit floating-point values with no fractional part) and can be from -253 to 253 - 1. . 
+
+double. .
 
     64-bit (double-precision) floating-point numbers, as specified by the IEEE 754 standard.
 
-Both int and double are subtypes of num. The num type includes basic operators such as +, -, /, and *, and is also where you’ll find abs(), ceil(), and floor(), among other methods. (Bitwise operators, such as >>, are defined in the int class.) If num and its subtypes don’t have what you’re looking for, the dart:math library might.
+ Both int and double are subtypes of num. The num type includes basic operators such as +, -, /, and *, .
+ and is also where you’ll find abs(), ceil(), and floor(), among other methods. (Bitwise operators, .
+ such as >>, are defined in the int class.) If num and its subtypes don’t have what you’re looking for, .
+ the dart:math library might.
 
-Integers are numbers without a decimal point. Here are some examples of defining integer literals:
+ Integers are numbers without a decimal point. Here are some examples of defining integer literals: .
 
-var x = 1;
-var hex = 0xDEADBEEF;
+| var x = 1;
+| var hex = 0xDEADBEEF;
 
-If a number includes a decimal, it is a double. Here are some examples of defining double literals:
+ If a number includes a decimal, it is a double. Here are some examples of defining double literals: .
 
-var y = 1.1;
-var exponents = 1.42e5;
+| var y = 1.1;
+| var exponents = 1.42e5;
 
-You can also declare a variable as a num. If you do this, the variable can have both integer and double values.
+ You can also declare a variable as a num. If you do this, the variable can have both .
+ integer and double values. .
 
-num x = 1; // x can have both int and double values
-x += 2.5;
+| num x = 1; // x can have both int and double values
+| x += 2.5;
 
-Integer literals are automatically converted to doubles when necessary:
+ Integer literals are automatically converted to doubles when necessary: .
 
-double z = 1; // Equivalent to double z = 1.0.
+| double z = 1; // Equivalent to double z = 1.0.
 
-Here’s how you turn a string into a number, or vice versa:
+ Here’s how you turn a string into a number, or vice versa: .
 
-// String -> int
-var one = int.parse('1');
-assert(one == 1);
+| // String -> int
+| var one = int.parse('1');
+| assert(one == 1);
 
-// String -> double
-var onePointOne = double.parse('1.1');
-assert(onePointOne == 1.1);
+| // String -> double
+| var onePointOne = double.parse('1.1');
+| assert(onePointOne == 1.1);
 
-// int -> String
-String oneAsString = 1.toString();
-assert(oneAsString == '1');
+| // int -> String
+| String oneAsString = 1.toString();
+| assert(oneAsString == '1');
 
-// double -> String
-String piAsString = 3.14159.toStringAsFixed(2);
-assert(piAsString == '3.14');
+| // double -> String
+| String piAsString = 3.14159.toStringAsFixed(2);
+| assert(piAsString == '3.14');
 
-The int type specifies the traditional bitwise shift (<<, >>, >>>), complement (~), AND (&), OR (|), and XOR (^) operators, which are useful for manipulating and masking flags in bit fields. For example:
+The int type specifies the traditional bitwise shift (<<, >>, >>>), complement (~), AND (&), OR (|), .
+and XOR (^) operators, which are useful for manipulating and masking flags in bit fields. For example: .
 
-assert((3 << 1) == 6); // 0011 << 1 == 0110
-assert((3 | 4) == 7); // 0011 | 0100 == 0111
-assert((3 & 4) == 0); // 0011 & 0100 == 0000
+| assert((3 << 1) == 6); // 0011 << 1 == 0110
+| assert((3 | 4) == 7); // 0011 | 0100 == 0111
+| assert((3 & 4) == 0); // 0011 & 0100 == 0000
 
-For more examples, see the bitwise and shift operator section.
+ For more examples, see the bitwise and shift operator section. .
 
-Literal numbers are compile-time constants. Many arithmetic expressions are also compile-time constants, as long as their operands are compile-time constants that evaluate to numbers.
+ Literal numbers are compile-time constants. Many arithmetic expressions are also .
+ compile-time constants, as long as their operands are compile-time constants that evaluate to numbers. .
 
-const msPerSecond = 1000;
-const secondsUntilRetry = 5;
-const msUntilRetry = secondsUntilRetry * msPerSecond;
+| const msPerSecond = 1000;
+| const secondsUntilRetry = 5;
+| const msUntilRetry = secondsUntilRetry * msPerSecond;
 
-For more information, see Numbers in Dart.
-Strings
+ For more information, see Numbers in Dart. .
 
-A Dart string (String object) holds a sequence of UTF-16 code units. You can use either single or double quotes to create a string:
+  Strings. .
 
-var s1 = 'Single quotes work well for string literals.';
-var s2 = "Double quotes work just as well.";
-var s3 = 'It\'s easy to escape the string delimiter.';
-var s4 = "It's even easier to use the other delimiter.";
+ A Dart string (String object) holds a sequence of UTF-16 code units. You can use either single .
+ or double quotes to create a string: .
 
-You can put the value of an expression inside a string by using ${expression}. If the expression is an identifier, you can skip the {}. To get the string corresponding to an object, Dart calls the object’s toString() method.
+| var s1 = 'Single quotes work well for string literals.';
+| var s2 = "Double quotes work just as well.";
+| var s3 = 'It\'s easy to escape the string delimiter.';
+| var s4 = "It's even easier to use the other delimiter.";
 
-var s = 'string interpolation';
+ You can put the value of an expression inside a string by using ${expression}. If the expression .
+ is an identifier, you can skip the {}. To get the string corresponding to an object, .
+ Dart calls the object’s toString() method. .
 
-assert('Dart has $s, which is very handy.' ==
-    'Dart has string interpolation, '
-        'which is very handy.');
-assert('That deserves all caps. '
-        '${s.toUpperCase()} is very handy!' ==
-    'That deserves all caps. '
-        'STRING INTERPOLATION is very handy!');
+| var s = 'string interpolation';
 
-Note: The == operator tests whether two objects are equivalent. Two strings are equivalent if they contain the same sequence of code units.
+| assert('Dart has $s, which is very handy.' ==
+|     'Dart has string interpolation, '
+|         'which is very handy.');
+| assert('That deserves all caps. '
+|         '${s.toUpperCase()} is very handy!' ==
+|     'That deserves all caps. '
+|         'STRING INTERPOLATION is very handy!');
 
-You can concatenate strings using adjacent string literals or the + operator:
+ Note: The == operator tests whether two objects are equivalent. Two strings are equivalent .
+ if they contain the same sequence of code units. .
 
-var s1 = 'String '
-    'concatenation'
-    " works even over line breaks.";
-assert(s1 ==
-    'String concatenation works even over '
-        'line breaks.');
+ You can concatenate strings using adjacent string literals or the + operator: .
 
-var s2 = 'The + operator ' + 'works, as well.';
-assert(s2 == 'The + operator works, as well.');
+| var s1 = 'String '
+|     'concatenation'
+|     " works even over line breaks.";
+| assert(s1 ==
+|     'String concatenation works even over '
+|         'line breaks.');
 
-Another way to create a multi-line string: use a triple quote with either single or double quotation marks:
+| var s2 = 'The + operator ' + 'works, as well.';
+| assert(s2 == 'The + operator works, as well.');
 
-var s1 = '''
-You can create
-multi-line strings like this one.
-''';
+ Another way to create a multi-line string: use a triple quote with either single or double quotation marks: .
 
-var s2 = """This is also a
-multi-line string.""";
+| var s1 = '''
+| You can create
+| multi-line strings like this one.
+| ''';
 
-You can create a “raw” string by prefixing it with r:
+| var s2 = """This is also a
+| multi-line string.""";
 
-var s = r'In a raw string, not even \n gets special treatment.';
+ You can create a “raw” string by prefixing it with r: .
 
-See Runes and grapheme clusters for details on how to express Unicode characters in a string.
+| var s = r'In a raw string, not even \n gets special treatment.';
 
-Literal strings are compile-time constants, as long as any interpolated expression is a compile-time constant that evaluates to null or a numeric, string, or boolean value.
+ See Runes and grapheme clusters for details on how to express Unicode characters in a string. .
 
-// These work in a const string.
-const aConstNum = 0;
-const aConstBool = true;
-const aConstString = 'a constant string';
+ Literal strings are compile-time constants, as long as any interpolated expression is a compile-time .
+ constant that evaluates to null or a numeric, string, or boolean value. .
 
-// These do NOT work in a const string.
-var aNum = 0;
-var aBool = true;
-var aString = 'a string';
-const aConstList = [1, 2, 3];
+| // These work in a const string.
+| const aConstNum = 0;
+| const aConstBool = true;
+| const aConstString = 'a constant string';
 
-const validConstString = '$aConstNum $aConstBool $aConstString';
-// const invalidConstString = '$aNum $aBool $aString $aConstList';
+| // These do NOT work in a const string.
+| var aNum = 0;
+| var aBool = true;
+| var aString = 'a string';
+| const aConstList = [1, 2, 3];
 
-For more information on using strings, check out Strings and regular expressions.
-Booleans
+| const validConstString = '$aConstNum $aConstBool $aConstString';
+| // const invalidConstString = '$aNum $aBool $aString $aConstList';
 
-To represent boolean values, Dart has a type named bool. Only two objects have type bool: the boolean literals true and false, which are both compile-time constants.
+ For more information on using strings, check out Strings and regular expressions. .
 
-Dart’s type safety means that you can’t use code like if (nonbooleanValue) or assert (nonbooleanValue). Instead, explicitly check for values, like this:
+  Booleans. .
 
-// Check for an empty string.
-var fullName = '';
-assert(fullName.isEmpty);
+ To represent boolean values, Dart has a type named bool. Only two objects have type bool: .
+ the boolean literals true and false, which are both compile-time constants. .
 
-// Check for zero.
-var hitPoints = 0;
-assert(hitPoints <= 0);
+ Dart’s type safety means that you can’t use code like if (nonbooleanValue) or assert (nonbooleanValue). .
+ Instead, explicitly check for values, like this: .
 
-// Check for null.
-var unicorn = null;
-assert(unicorn == null);
+| // Check for an empty string.
+| var fullName = '';
+| assert(fullName.isEmpty);
 
-// Check for NaN.
-var iMeantToDoThis = 0 / 0;
-assert(iMeantToDoThis.isNaN);
+| // Check for zero.
+| var hitPoints = 0;
+| assert(hitPoints <= 0);
 
-Runes and grapheme clusters
+| // Check for null.
+| var unicorn = null;
+| assert(unicorn == null);
 
-In Dart, runes expose the Unicode code points of a string. You can use the characters package to view or manipulate user-perceived characters, also known as Unicode (extended) grapheme clusters.
+| // Check for NaN.
+| var iMeantToDoThis = 0 / 0;
+| assert(iMeantToDoThis.isNaN);
 
-Unicode defines a unique numeric value for each letter, digit, and symbol used in all of the world’s writing systems. Because a Dart string is a sequence of UTF-16 code units, expressing Unicode code points within a string requires special syntax. The usual way to express a Unicode code point is \uXXXX, where XXXX is a 4-digit hexadecimal value. For example, the heart character (♥) is \u2665. To specify more or less than 4 hex digits, place the value in curly brackets. For example, the laughing emoji (😆) is \u{1f606}.
+  Runes and grapheme clusters. .
+
+ In Dart, runes expose the Unicode code points of a string. You can use the characters package to .
+ view or manipulate user-perceived characters, also known as Unicode (extended) grapheme clusters. .
+
+ Unicode defines a unique numeric value for each letter, digit, and symbol used in all of .
+ the world’s writing systems. Because a Dart string is a sequence of UTF-16 code units, .
+ expressing Unicode code points within a string requires special syntax. The usual way to .
+ express a Unicode code point is \uXXXX, where XXXX is a 4-digit hexadecimal value. For example, .
+ the heart character (♥) is \u2665. To specify more or less than 4 hex digits, place the value .
+ in curly brackets. For example, the laughing emoji (😆) is \u{1f606}. .
 
 If you need to read or write individual Unicode characters, use the characters getter defined on String by the characters package. The returned Characters object is the string as a sequence of grapheme clusters. Here’s an example of using the characters API:
 
