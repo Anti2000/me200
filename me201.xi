@@ -1264,42 +1264,49 @@ and XOR (^) operators, which are useful for manipulating and masking flags in bi
  the heart character (♥) is \u2665. To specify more or less than 4 hex digits, place the value .
  in curly brackets. For example, the laughing emoji (😆) is \u{1f606}. .
 
-If you need to read or write individual Unicode characters, use the characters getter defined on String by the characters package. The returned Characters object is the string as a sequence of grapheme clusters. Here’s an example of using the characters API:
+ If you need to read or write individual Unicode characters, use the characters getter defined .
+ on String by the characters package. The returned Characters object is the string as a sequence .
+ of grapheme clusters. Here’s an example of using the characters API: .
 
-import 'package:characters/characters.dart';
+| import 'package:characters/characters.dart';
 
-void main() {
-  var hi = 'Hi 🇩🇰';
-  print(hi);
-  print('The end of the string: ${hi.substring(hi.length - 1)}');
-  print('The last character: ${hi.characters.last}');
-}
+| void main() {
+|   var hi = 'Hi 🇩🇰';
+|   print(hi);
+|   print('The end of the string: ${hi.substring(hi.length - 1)}');
+|   print('The last character: ${hi.characters.last}');
+| }
 
-The output, depending on your environment, looks something like this:
+ The output, depending on your environment, looks something like this: .
 
- dart run bin/main.dart
-Hi 🇩🇰
-The end of the string: ???
-The last character: 🇩🇰
+|  dart run bin/main.dart
+| Hi 🇩🇰
+| The end of the string: ???
+| The last character: 🇩🇰
 
-For details on using the characters package to manipulate strings, see the example and API reference for the characters package.
-Symbols
+ For details on using the characters package to manipulate strings, see the example and API .
+ reference for the characters package. .
+  
+  Symbols. .
 
-A Symbol object represents an operator or identifier declared in a Dart program. You might never need to use symbols, but they’re invaluable for APIs that refer to identifiers by name, because minification changes identifier names but not identifier symbols.
+ A Symbol object represents an operator or identifier declared in a Dart program. You might never .
+ need to use symbols, but they’re invaluable for APIs that refer to identifiers by name, because .
+ minification changes identifier names but not identifier symbols.
 
-To get the symbol for an identifier, use a symbol literal, which is just # followed by the identifier:
+ To get the symbol for an identifier, use a symbol literal, which is just # followed by the identifier: .
 
-#radix
-#bar
+| #radix
+| #bar
 
-Symbol literals are compile-time constants.
+Symbol literals are compile-time constants. .
 
+  Records. .
 
-Records
+ Version note: Records require a language version of at least 3.0. .
 
-Version note: Records require a language version of at least 3.0.
-
-Records are an anonymous, immutable, aggregate type. Like other collection types, they let you bundle multiple objects into a single object. Unlike other collection types, records are fixed-sized, heterogeneous, and typed.
+ Records are an anonymous, immutable, aggregate type. Like other collection types, they let you .
+ bundle multiple objects into a single object. Unlike other collection types, records are fixed-sized, .
+ heterogeneous, and typed. .
 
 Records are real values; you can store them in variables, nest them, pass them to and from functions, and store them in data structures such as lists, maps, and sets.
 Record syntax
