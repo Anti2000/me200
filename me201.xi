@@ -152,7 +152,7 @@ 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
           aliexpress https://seller.aliexpress.ru/  anatole.yakovlev@gmail.com  Asd25@# .
           avito novikov.timofey1952@gmail.com 8 995 839-59-17. firefox .
           avito 89096009912 chrome. .
-          avito yandex antiohy@mail.ru 89953518343 iXu-JsY-6aq-aF2 . .
+          avito yandex app avito antiohy@mail.ru 89953518343 iXu-JsY-6aq-aF2 . .
 
     FOOD: .
      brain for brain: .
@@ -160,8 +160,11 @@ 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
 
 
   BUSSINESS .
-    
+
     SANDBOX .
+
+type of sandbox: .
+
 
     INCUBATORS .
 
@@ -1308,274 +1311,320 @@ Symbol literals are compile-time constants. .
  bundle multiple objects into a single object. Unlike other collection types, records are fixed-sized, .
  heterogeneous, and typed. .
 
-Records are real values; you can store them in variables, nest them, pass them to and from functions, and store them in data structures such as lists, maps, and sets.
-Record syntax
+ Records are real values; you can store them in variables, nest them, pass them to and from functions, .
+ and store them in data structures such as lists, maps, and sets. .
 
-Records expressions are comma-delimited lists of named or positional fields, enclosed in parentheses:
+Record syntax. .
 
-var record = ('first', a: 2, b: true, 'last');
+ Records expressions are comma-delimited lists of named or positional fields, enclosed in parentheses: .
 
-Record type annotations are comma-delimited lists of types enclosed in parentheses. You can use record type annotations to define return types and parameter types. For example, the following (int, int) statements are record type annotations:
+| var record = ('first', a: 2, b: true, 'last');
 
-(int, int) swap((int, int) record) {
-  var (a, b) = record;
-  return (b, a);
-}
+ Record type annotations are comma-delimited lists of types enclosed in parentheses. You can use record .
+ type annotations to define return types and parameter types. For example, the following (int, int) .
+ statements are record type annotations: .
 
-Fields in record expressions and type annotations mirror how parameters and arguments work in functions. Positional fields go directly inside the parentheses:
+| (int, int) swap((int, int) record) {
+|   var (a, b) = record;
+|   return (b, a);
+| }
 
-// Record type annotation in a variable declaration:
-(String, int) record;
+ Fields in record expressions and type annotations mirror how parameters and arguments work in functions. .
+ Positional fields go directly inside the parentheses: .
 
-// Initialize it with a record expression:
-record = ('A string', 123);
+| // Record type annotation in a variable declaration:
+| (String, int) record;
 
-In a record type annotation, named fields go inside a curly brace-delimited section of type-and-name pairs, after all positional fields. In a record expression, the names go before each field value with a colon after:
+| // Initialize it with a record expression:
+| record = ('A string', 123);
 
-// Record type annotation in a variable declaration:
-({int a, bool b}) record;
+ In a record type annotation, named fields go inside a curly brace-delimited section of type-and-name pairs, .
+ after all positional fields. In a record expression, the names go before each field value with a colon after: .
 
-// Initialize it with a record expression:
-record = (a: 123, b: true);
+| // Record type annotation in a variable declaration:
+| ({int a, bool b}) record;
 
-The names of named fields in a record type are part of the record’s type definition, or its shape. Two records with named fields with different names have different types:
+| // Initialize it with a record expression:
+| record = (a: 123, b: true);
 
-({int a, int b}) recordAB = (a: 1, b: 2);
-({int x, int y}) recordXY = (x: 3, y: 4);
+ The names of named fields in a record type are part of the record’s type definition, or its shape. .
+ Two records with named fields with different names have different types: .
 
-// Compile error! These records don't have the same type.
-// recordAB = recordXY;
+| ({int a, int b}) recordAB = (a: 1, b: 2);
+| ({int x, int y}) recordXY = (x: 3, y: 4);
 
-In a record type annotation, you can also name the positional fields, but these names are purely for documentation and don’t affect the record’s type:
+| // Compile error! These records don't have the same type.
+| // recordAB = recordXY;
 
-(int a, int b) recordAB = (1, 2);
-(int x, int y) recordXY = (3, 4);
+ In a record type annotation, you can also name the positional fields, but these names are .
+ purely for documentation and don’t affect the record’s type: .
 
-recordAB = recordXY; // OK.
+| (int a, int b) recordAB = (1, 2);
+| (int x, int y) recordXY = (3, 4);
 
-This is similar to how positional parameters in a function declaration or function typedef can have names but those names don’t affect the signature of the function.
+| recordAB = recordXY; // OK.
 
-For more information and examples, check out Record types and Record equality.
-Record fields
+ This is similar to how positional parameters in a function declaration or function typedef can have .
+ names but those names don’t affect the signature of the function. .
 
-Record fields are accessible through built-in getters. Records are immutable, so fields do not have setters.
+ For more information and examples, check out Record types and Record equality. .
+  
+  Record fields. .
 
-Named fields expose getters of the same name. Positional fields expose getters of the name $<position>, skipping named fields:
+ Record fields are accessible through built-in getters. Records are immutable, so fields do not have setters. .
 
-var record = ('first', a: 2, b: true, 'last');
+ Named fields expose getters of the same name. Positional fields expose getters of the name $<position>, .
+ skipping named fields: .
 
-print(record.$1); // Prints 'first'
-print(record.a); // Prints 2
-print(record.b); // Prints true
-print(record.$2); // Prints 'last'
+| var record = ('first', a: 2, b: true, 'last');
 
-To streamline record field access even more, check out the page on Patterns.
-Record types
+| print(record.$1); // Prints 'first'
+| print(record.a); // Prints 2
+| print(record.b); // Prints true
+| print(record.$2); // Prints 'last'
 
-There is no type declaration for individual record types. Records are structurally typed based on the types of their fields. A record’s shape (the set of its fields, the fields’ types, and their names, if any) uniquely determines the type of a record.
+ To streamline record field access even more, check out the page on Patterns. .
+ 
+  Record types. .
 
-Each field in a record has its own type. Field types can differ within the same record. The type system is aware of each field’s type wherever it is accessed from the record:
+ There is no type declaration for individual record types. Records are structurally typed based on the .
+ types of their fields. A record’s shape (the set of its fields, the fields’ types, and their names, if .
+ any) uniquely determines the type of a record. .
 
-(num, Object) pair = (42, 'a');
+ Each field in a record has its own type. Field types can differ within the same record. The type system is .
+ aware of each field’s type wherever it is accessed from the record: .
 
-var first = pair.$1; // Static type `num`, runtime type `int`.
-var second = pair.$2; // Static type `Object`, runtime type `String`.
+| (num, Object) pair = (42, 'a');
 
-Consider two unrelated libraries that create records with the same set of fields. The type system understands that those records are the same type even though the libraries are not coupled to each other.
-Record equality
+| var first = pair.$1; // Static type `num`, runtime type `int`.
+| var second = pair.$2; // Static type `Object`, runtime type `String`.
 
-Two records are equal if they have the same shape (set of fields), and their corresponding fields have the same values. Since named field order is not part of a record’s shape, the order of named fields does not affect equality.
+ Consider two unrelated libraries that create records with the same set of fields. The type system .
+ understands that those records are the same type even though the libraries are not coupled to each other. .
 
-For example:
+  Record equality. .
 
-(int x, int y, int z) point = (1, 2, 3);
-(int r, int g, int b) color = (1, 2, 3);
+ Two records are equal if they have the same shape (set of fields), and their corresponding fields .
+ have the same values. Since named field order is not part of a record’s shape, the order of named .
+ fields does not affect equality. .
 
-print(point == color); // Prints 'true'.
+ For example: .
 
-({int x, int y, int z}) point = (x: 1, y: 2, z: 3);
-({int r, int g, int b}) color = (r: 1, g: 2, b: 3);
+| (int x, int y, int z) point = (1, 2, 3);
+| (int r, int g, int b) color = (1, 2, 3);
 
-print(point == color); // Prints 'false'. Lint: Equals on unrelated types.
+| print(point == color); // Prints 'true'.
 
-Records automatically define hashCode and == methods based on the structure of their fields.
-Multiple returns
+| ({int x, int y, int z}) point = (x: 1, y: 2, z: 3);
+| ({int r, int g, int b}) color = (r: 1, g: 2, b: 3);
 
-Records allow functions to return multiple values bundled together. To retrieve record values from a return, destructure the values into local variables using pattern matching.
+| print(point == color); // Prints 'false'. Lint: Equals on unrelated types.
 
-// Returns multiple values in a record:
-(String, int) userInfo(Map<String, dynamic> json) {
-  return (json['name'] as String, json['age'] as int);
-}
+ Records automatically define hashCode and == methods based on the structure of their fields. .
 
-final json = <String, dynamic>{
-  'name': 'Dash',
-  'age': 10,
-  'color': 'blue',
-};
+  Multiple returns. .
 
-// Destructures using a record pattern:
-var (name, age) = userInfo(json);
+ Records allow functions to return multiple values bundled together. To retrieve record values. .
+ from a return, destructure the values into local variables using pattern matching. .
 
-/* Equivalent to:
-  var info = userInfo(json);
-  var name = info.$1;
-  var age  = info.$2;
-*/
+| // Returns multiple values in a record:
+| (String, int) userInfo(Map<String, dynamic> json) {
+|   return (json['name'] as String, json['age'] as int);
+| }
 
-You can return multiple values from a function without records, but other methods come with downsides. For example, creating a class is much more verbose, and using other collection types like List or Map loses type safety.
+| final json = <String, dynamic>{
+|   'name': 'Dash',
+|   'age': 10,
+|   'color': 'blue',
+| };
 
+| // Destructures using a record pattern:
+| var (name, age) = userInfo(json);
 
-Collections
+| /* Equivalent to:
+|   var info = userInfo(json);
+|   var name = info.$1;
+|   var age  = info.$2;
+| */
 
-Dart has built-in support for list, set, and map collections. To learn more about configuring the types collections contain, check out Generics.
-Lists
+ You can return multiple values from a function without records, but other methods come with downsides. .
+ For example, creating a class is much more verbose, and using other collection types like List or Map .
+ loses type safety. .
 
-Perhaps the most common collection in nearly every programming language is the array, or ordered group of objects. In Dart, arrays are List objects, so most people just call them lists.
 
-Dart list literals are denoted by a comma separated list of expressions or values, enclosed in square brackets ([]). Here’s a simple Dart list:
+  Collections. .
 
-var list = [1, 2, 3];
+ Dart has built-in support for list, set, and map collections. To learn more about configuring the types .
+ collections contain, check out Generics. .
 
-Note: Dart infers that list has type List<int>. If you try to add non-integer objects to this list, the analyzer or runtime raises an error. For more information, read about type inference.
 
-You can add a comma after the last item in a Dart collection literal. This trailing comma doesn’t affect the collection, but it can help prevent copy-paste errors.
+  Lists. .
 
-var list = [
-  'Car',
-  'Boat',
-  'Plane',
-];
+ Perhaps the most common collection in nearly every programming language is the array, or ordered group .
+ of objects. In Dart, arrays are List objects, so most people just call them lists. .
 
-Lists use zero-based indexing, where 0 is the index of the first value and list.length - 1 is the index of the last value. You can get a list’s length using the .length property and access a list’s values using the subscript operator ([]):
+ Dart list literals are denoted by a comma separated list of expressions or values, enclosed .
+ in square brackets ([]). Here’s a simple Dart list: .
 
-var list = [1, 2, 3];
-assert(list.length == 3);
-assert(list[1] == 2);
+| var list = [1, 2, 3];
 
-list[1] = 1;
-assert(list[1] == 1);
+ Note: Dart infers that list has type List<int>. If you try to add non-integer objects to this list, .
+ the analyzer or runtime raises an error. For more information, read about type inference. .
 
-To create a list that’s a compile-time constant, add const before the list literal:
+ You can add a comma after the last item in a Dart collection literal. This trailing comma doesn’t .
+ affect the collection, but it can help prevent copy-paste errors. .
 
-var constantList = const [1, 2, 3];
-// constantList[1] = 1; // This line will cause an error.
+| var list = [
+|   'Car',
+|   'Boat',
+|   'Plane',
+| ];
 
-For more information about lists, refer to the Lists section of the Library tour.
-Sets
+ Lists use zero-based indexing, where 0 is the index of the first value and list.length - 1 is .
+ the index of the last value. You can get a list’s length using the .length property and access .
+ a list’s values using the subscript operator ([]): .
 
-A set in Dart is an unordered collection of unique items. Dart support for sets is provided by set literals and the Set type.
+| var list = [1, 2, 3];
+| assert(list.length == 3);
+| assert(list[1] == 2);
 
-Here is a simple Dart set, created using a set literal:
+| list[1] = 1;
+| assert(list[1] == 1);
 
-var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
+To create a list that’s a compile-time constant, add const before the list literal: ,
 
-Note: Dart infers that halogens has the type Set<String>. If you try to add the wrong type of value to the set, the analyzer or runtime raises an error. For more information, read about type inference.
+| var constantList = const [1, 2, 3];
+| // constantList[1] = 1; // This line will cause an error.
 
-To create an empty set, use {} preceded by a type argument, or assign {} to a variable of type Set:
+ For more information about lists, refer to the Lists section of the Library tour. .
 
-var names = <String>{};
-// Set<String> names = {}; // This works, too.
-// var names = {}; // Creates a map, not a set.
+  Sets. .
 
-Set or map? The syntax for map literals is similar to that for set literals. Because map literals came first, {} defaults to the Map type. If you forget the type annotation on {} or the variable it’s assigned to, then Dart creates an object of type Map<dynamic, dynamic>.
+ A set in Dart is an unordered collection of unique items. Dart support for sets is provided by set .
+ literals and the Set type. .
 
-Add items to an existing set using the add() or addAll() methods:
+ Here is a simple Dart set, created using a set literal: .
 
-var elements = <String>{};
-elements.add('fluorine');
-elements.addAll(halogens);
+| var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
 
-Use .length to get the number of items in the set:
+ Note: Dart infers that halogens has the type Set<String>. If you try to add the wrong type of value .
+ to the set, the analyzer or runtime raises an error. For more information, read about type inference. .
 
-var elements = <String>{};
-elements.add('fluorine');
-elements.addAll(halogens);
-assert(elements.length == 5);
+ To create an empty set, use {} preceded by a type argument, or assign {} to a variable of type Set: .
 
-To create a set that’s a compile-time constant, add const before the set literal:
+| var names = <String>{};
+| // Set<String> names = {}; // This works, too.
+| // var names = {}; // Creates a map, not a set.
 
-final constantSet = const {
-  'fluorine',
-  'chlorine',
-  'bromine',
-  'iodine',
-  'astatine',
-};
-// constantSet.add('helium'); // This line will cause an error.
+ Set or map? The syntax for map literals is similar to that for set literals. Because map literals .
+ came first, {} defaults to the Map type. If you forget the type annotation on {} or the variable .
+ it’s assigned to, then Dart creates an object of type Map<dynamic, dynamic>. .
 
-For more information about sets, refer to the Sets section of the Library tour.
-Maps
+ Add items to an existing set using the add() or addAll() methods: .
 
-In general, a map is an object that associates keys and values. Both keys and values can be any type of object. Each key occurs only once, but you can use the same value multiple times. Dart support for maps is provided by map literals and the Map type.
+| var elements = <String>{};
+| elements.add('fluorine');
+| elements.addAll(halogens);
 
-Here are a couple of simple Dart maps, created using map literals:
+ Use .length to get the number of items in the set: .
 
-var gifts = {
-  // Key:    Value
-  'first': 'partridge',
-  'second': 'turtledoves',
-  'fifth': 'golden rings'
-};
+| var elements = <String>{};
+| elements.add('fluorine');
+| elements.addAll(halogens);
+| assert(elements.length == 5);
 
-var nobleGases = {
-  2: 'helium',
-  10: 'neon',
-  18: 'argon',
-};
+ To create a set that’s a compile-time constant, add const before the set literal: .
 
-Note: Dart infers that gifts has the type Map<String, String> and nobleGases has the type Map<int, String>. If you try to add the wrong type of value to either map, the analyzer or runtime raises an error. For more information, read about type inference.
+| final constantSet = const {
+|   'fluorine',
+|   'chlorine',
+|   'bromine',
+|   'iodine',
+|   'astatine',
+| };
+| // constantSet.add('helium'); // This line will cause an error.
 
-You can create the same objects using a Map constructor:
+ For more information about sets, refer to the Sets section of the Library tour. .
 
-var gifts = Map<String, String>();
-gifts['first'] = 'partridge';
-gifts['second'] = 'turtledoves';
-gifts['fifth'] = 'golden rings';
+  Maps. .
 
-var nobleGases = Map<int, String>();
-nobleGases[2] = 'helium';
-nobleGases[10] = 'neon';
-nobleGases[18] = 'argon';
+ In general, a map is an object that associates keys and values. Both keys and values can be any .
+ type of object. Each key occurs only once, but you can use the same value multiple times. Dart support .
+ for maps is provided by map literals and the Map type. .
 
-Note: If you come from a language like C# or Java, you might expect to see new Map() instead of just Map(). In Dart, the new keyword is optional. For details, see Using constructors.
+ Here are a couple of simple Dart maps, created using map literals: .
 
-Add a new key-value pair to an existing map using the subscript assignment operator ([]=):
+| var gifts = {
+|   // Key:    Value
+|   'first': 'partridge',
+|   'second': 'turtledoves',
+|   'fifth': 'golden rings'
+| };
 
-var gifts = {'first': 'partridge'};
-gifts['fourth'] = 'calling birds'; // Add a key-value pair
+| var nobleGases = {
+|   2: 'helium',
+|   10: 'neon',
+|   18: 'argon',
+| };
 
-Retrieve a value from a map using the subscript operator ([]):
+ Note: Dart infers that gifts has the type Map<String, String> and nobleGases has the type Map<int, .
+ String>. If you try to add the wrong type of value to either map, the analyzer or runtime raises an .
+ error. For more information, read about type inference. .
 
-var gifts = {'first': 'partridge'};
-assert(gifts['first'] == 'partridge');
+ You can create the same objects using a Map constructor: .
 
-If you look for a key that isn’t in a map, you get null in return:
+| var gifts = Map<String, String>();
+| gifts['first'] = 'partridge';
+| gifts['second'] = 'turtledoves';
+| gifts['fifth'] = 'golden rings';
 
-var gifts = {'first': 'partridge'};
-assert(gifts['fifth'] == null);
+| var nobleGases = Map<int, String>();
+| nobleGases[2] = 'helium';
+| nobleGases[10] = 'neon';
+| nobleGases[18] = 'argon';
 
-Use .length to get the number of key-value pairs in the map:
+ Note: If you come from a language like C# or Java, you might expect to see new Map() instead .
+ of just Map(). In Dart, the new keyword is optional. For details, see Using constructors. .
 
-var gifts = {'first': 'partridge'};
-gifts['fourth'] = 'calling birds';
-assert(gifts.length == 2);
+ Add a new key-value pair to an existing map using the subscript assignment operator ([]=): .
 
-To create a map that’s a compile-time constant, add const before the map literal:
+| var gifts = {'first': 'partridge'};
+| gifts['fourth'] = 'calling birds'; // Add a key-value pair
 
-final constantMap = const {
-  2: 'helium',
-  10: 'neon',
-  18: 'argon',
-};
+ Retrieve a value from a map using the subscript operator ([]): .
 
-// constantMap[2] = 'Helium'; // This line will cause an error.
+| var gifts = {'first': 'partridge'};
+| assert(gifts['first'] == 'partridge');
 
-For more information about maps, refer to the Maps section of the Library tour.
-Operators
-Spread operators
+ If you look for a key that isn’t in a map, you get null in return: .
 
-Dart supports the spread operator (...) and the null-aware spread operator (...?) in list, map, and set literals. Spread operators provide a concise way to insert multiple values into a collection.
+| var gifts = {'first': 'partridge'};
+| assert(gifts['fifth'] == null);
+
+ Use .length to get the number of key-value pairs in the map: .
+
+| var gifts = {'first': 'partridge'};
+| gifts['fourth'] = 'calling birds';
+| assert(gifts.length == 2);
+
+ To create a map that’s a compile-time constant, add const before the map literal: .
+
+| final constantMap = const {
+|   2: 'helium',
+|   10: 'neon',
+|   18: 'argon',
+| };
+
+| // constantMap[2] = 'Helium'; // This line will cause an error.
+
+ For more information about maps, refer to the Maps section of the Library tour. .
+ 
+  Operators. .
+
+Spread operators. .
+
+ Dart supports the spread operator (...) and the null-aware spread operator (...?) in list, map, .
+ and set literals. Spread operators provide a concise way to insert multiple values into a collection. .
 
 For example, you can use the spread operator (...) to insert all the values of a list into another list:
 
