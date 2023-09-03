@@ -1,3 +1,16 @@
+repair.
+
+Наливной пол.
+
+Стены. 
+Работы:
+
+Обои.
+Сантехника.
+Ванная.
+Кухня.
+Диван.
+
 Пыльник
 Весенний.
 Граната
@@ -153,6 +166,7 @@ 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
           avito novikov.timofey1952@gmail.com 8 995 839-59-17. firefox .
           avito 89096009912 chrome. .
           avito yandex app avito antiohy@mail.ru 89953518343 iXu-JsY-6aq-aF2 . .
+          exist 89096009912 . .
 
     FOOD: .
      brain for brain: .
@@ -165,7 +179,7 @@ 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
 
 type of sandbox: .
 
-
+sandbox without holes only materials.  .
     INCUBATORS .
 
     CHILDHOSES .
