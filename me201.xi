@@ -1,6 +1,14 @@
-repair.
+
+THE REPAIR OF FLAT. .
+
+direction: .
 
 Наливной пол.
+1. consultation with sh.adnryu. . now.
+2. carry components.
+2.1 ask about heaver to tadjik. now.
+2.2 Carry components after noon. 04.09.2023 15:00. .
+3. export the refuse. 04.09.2023 13.00
 
 Стены. 
 Работы:
