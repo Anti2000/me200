@@ -10,6 +10,10 @@ direction: .
 2.2 Carry components after noon. 04.09.2023 15:00. .
 3. export the refuse. 04.09.2023 13.00
 
+BATH: .
+1. carry vanna. .04.09.2023 13:00 .
+2. carry 
+tabletop and rack from cottage
 Стены. 
 Работы:
 
