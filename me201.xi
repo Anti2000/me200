@@ -3,50 +3,51 @@ THE REPAIR OF FLAT. .
 
 direction: .
 
-Наливной пол.
-1. consultation with sh.adnryu. . now.
-2. carry components.
-2.1 ask about heaver to tadjik. now.
-2.2 Carry components after noon. 04.09.2023 15:00. .
-3. export the refuse. 04.09.2023 13.00
-
-BATH: .
-1. carry vanna. .04.09.2023 13:00 .
-2. carry 
-tabletop and rack from cottage
-Стены. 
-Работы:
-
-Обои.
-Сантехника.
-Ванная.
-Кухня.
-Диван.
-
-Необходимо приобрести 1. Магниты. 
-2. Клей. МВ 100 
-3. Наждачку 80 2 шт. 
+buyins: .
+1. magnits. now . 
+2. buy things for kitchen. now .
+Наждачку 80 2 шт. 
 4. Пластиковые сенвичпанели 50*150 8 шт, 50*210 1шт.. 
 5. Уголки 10*10 5 шт по 3 метра. 
 6. Пластиковая пэшки 6 шт. По 3 метра. 
 7. Люк скрытого монтажа. 
-8. Саморезы? 9. 
-Краны два краны. 
 10. Обои 
 11. Плинтуса. 
 12. Ламинат.
 13. Фольга. 
 14. Полистирольную. 2мм 20 ква. 35кв. 3 мм. 
 16. Инфокрасник. ? 
-17. Коронки для керамо гранита 68, 40, 32? 
-18. Пёрышки по керамограниту 2шт. 6 диаметр 
 19. Входные двери. 20.
-
-20. Краны 3.4 2 штуки, 25 краны 2 штуки.
-21. Ёмкость 80 литров тазик.
-22. Игольчатый валик. 23.
-23. Лампочки 5 шт. И патроны.
 24. Паста для сантех.
+
+total questions: .
+1. count money. now .
+2. prepair credis cards. .
+
+
+electrica: . 
+look about seals. now .
+
+walls: .
+1. check results. now. .
+
+Наливной floor.
+1. consultation with sh.adnryu. . now.
+2. speak with jober. . now. .
+3. export other thing. now . .
+
+BATH: .
+1. carry plitka. now. .
+
+santehnika: .
+1.
+
+mebel: .
+1.sofa. now.
+2. bed. now.
+3... .
+ 
+
 
 Пыльник
 Весенний.
