@@ -19,34 +19,66 @@ buyins: .
 16. Инфокрасник. ? 
 19. Входные двери. 20.
 24. Паста для сантех.
+2. buy kvarqvinil. ??now .
+3. sill. now. .
+4. buy infokransiu panels. now. .
+5. podlojka 1. now .
+6. podlojka 2. now. .
+7. folga. 3. now.
+
 
 total questions: .
 1. count money. now .
 2. prepair credis cards. .
+3. carry out things. now. .
+4. carry in things. now .
+5. make up electrica in flat. now .
+6. electrica: . 
+7. look about seals. now .
 
-
-electrica: . 
-look about seals. now .
 
 walls: .
 1. check results. now. .
+2. know about sill. now .
+3. door. .
 
-Наливной floor.
-1. consultation with sh.adnryu. . now.
+
+Наливной floor. .
+1. consultation with sh.adnryu. now .
 2. speak with jober. . now. .
 3. export other thing. now . .
+
+
+warm floor. .
+1. know about posible and not. now .
+2. buy kvarqvinil. ??now .
+3. sill. now. .
+4. buy infokransiu panels. now. .
+5. podlojka 1. now .
+6. podlojka 2. now. .
+7. folga. 3. now .
+
 
 BATH: .
 1. carry plitka. now. .
 
+
 santehnika: .
 1.
+
 
 mebel: .
 1.sofa. now.
 2. bed. now.
 3... .
- 
+
+
+doors: .
+1. doors. choose and buy. now.
+2. ask about date. now .
+
+kitchen: .
+1. 
 
 
 Пыльник
