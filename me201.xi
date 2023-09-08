@@ -33,8 +33,7 @@ total questions: .
 3. carry out things. now. .
 4. carry in things. now .
 5. make up electrica in flat. now .
-6. electrica: . 
-7. look about seals. now .
+6. look about seals. now .
 
 
 walls: .
@@ -68,8 +67,8 @@ santehnika: .
 
 
 mebel: .
-1.sofa. now.
-2. bed. now.
+1.sofa. now .
+2. bed. now .
 3... .
 
 
