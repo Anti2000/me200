@@ -1,45 +1,56 @@
-
 THE REPAIR OF FLAT. .
 
 direction: .
 
+espenses:
+1. kvarqvinil: 150.
+2. adnryu:110.
+3. shkafu 20. 
+4. adnryu 70.
+5. Обои 20
+6. door 50.
+7. bed. .100
+520
+70+250=320 
+
 buyins: .
 1. magnits. now . 
 2. buy things for kitchen. now .
-Наждачку 80 2 шт. 
-4. Пластиковые сенвичпанели 50*150 8 шт, 50*210 1шт.. 
-5. Уголки 10*10 5 шт по 3 метра. 
-6. Пластиковая пэшки 6 шт. По 3 метра. 
-7. Люк скрытого монтажа. 
-10. Обои 
-11. Плинтуса. 
-12. Ламинат.
-13. Фольга. 
-14. Полистирольную. 2мм 20 ква. 35кв. 3 мм. 
-16. Инфокрасник. ? 
-19. Входные двери. 20.
-24. Паста для сантех.
-2. buy kvarqvinil. ??now .
-3. sill. now. .
-4. buy infokransiu panels. now. .
-5. podlojka 1. now .
-6. podlojka 2. now. .
-7. folga. 3. now.
+3. Пластиковые сенвичпанели 50*150 8 шт, 50*210 1шт.. 
+4. Уголки 10*10 5 шт по 3 метра. 
+5. Пластиковая пэшки 6 шт. По 3 метра. 
+6. Люк скрытого монтажа. 
+7. Обои 
+8. Плинтуса. 
+9. Фольга. 
+10. Полистирольную. 2мм 20 ква. 35кв. 3 мм. 
+11. Входные двери. 20.
+12. buy kvarqvinil. ??now .
+13. sill. now. .
+14. buy infokransiu panels. now. .
+15. podlojka 1. now .
+16. podlojka 2. now. .
+17. folga. 3. now.
+18. kran in kitchen. .
+19. kran in bath. .
 
 
 total questions: .
-1. count money. now .
+1. count money. everymoment .
 2. prepair credis cards. .
 3. carry out things. now. .
 4. carry in things. now .
 5. make up electrica in flat. now .
-6. look about seals. now .
+6. make up seals in shit. .
 
 
 walls: .
 1. check results. now. .
 2. know about sill. now .
 3. door. .
+4. gruntovka. .
+5. oboi buy.
+6. stick oboi. .
 
 
 Наливной floor. .
@@ -60,6 +71,8 @@ warm floor. .
 
 BATH: .
 1. carry plitka. now. .
+2. take the size. .
+3. luchok choose. .
 
 
 santehnika: .
