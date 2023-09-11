@@ -14,15 +14,13 @@ espenses:
 70+250=320 
 
 buyins: .
-1. magnits. now . 
-2. buy things for kitchen. now .
+1. magnits. now .
 3. Пластиковые сенвичпанели 50*150 8 шт, 50*210 1шт.. 
 4. Уголки 10*10 5 шт по 3 метра. 
 5. Пластиковая пэшки 6 шт. По 3 метра. 
-6. Люк скрытого монтажа. 
-7. Обои 
-8. Плинтуса. 
-9. Фольга. 
+6. Люк скрытого монтажа. wait jobs to bath 
+7. Обои. now. .
+8. Плинтуса. .
 10. Полистирольную. 2мм 20 ква. 35кв. 3 мм. 
 11. Входные двери. 20.
 12. buy kvarqvinil. ??now .
@@ -33,7 +31,7 @@ buyins: .
 17. folga. 3. now.
 18. kran in kitchen. .
 19. kran in bath. .
-
+22 . svetilniki .
 
 total questions: .
 1. count money. everymoment .
@@ -49,14 +47,14 @@ walls: .
 2. know about sill. now .
 3. door. .
 4. gruntovka. .
-5. oboi buy.
+5. oboi buy. .
 6. stick oboi. .
 
 
 Наливной floor. .
-1. consultation with sh.adnryu. now .
 2. speak with jober. . now. .
 3. export other thing. now . .
+4. define day. .
 
 
 warm floor. .
@@ -76,13 +74,13 @@ BATH: .
 
 
 santehnika: .
-1.
+1. ask order in bath. .
 
 
 mebel: .
-1.sofa. now .
+1. sofa. now .
 2. bed. now .
-3... .
+3. bedboards .
 
 
 doors: .
@@ -90,7 +88,8 @@ doors: .
 2. ask about date. now .
 
 kitchen: .
-1. 
+1. buy osmos. .
+2. buy kran. .
 
 
 Пыльник
@@ -249,11 +248,11 @@ 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
           avito 89096009912 chrome. .
           avito yandex app avito antiohy@mail.ru 89953518343 iXu-JsY-6aq-aF2 . .
           exist 89096009912 . .
+          Yandex alisa light anatolij.novikov2016@ya.ru .
 
     FOOD: .
      brain for brain: .
       spinach. .
-
 
   BUSSINESS .
 

@@ -3266,7 +3266,7 @@ rzd.ru  nickname: antiohy 	password:   inthebeginning86
 skype:          anatole.yakovlev        yakovleva.alena1	spiritof1	Spiritof1	Lord Дщкв	omylord	inthebeginning		inthebeginning1	
 skype:yakovlev.anatole.	steel-magnitude@rambler.ru   spiritof1	anatole.yakovlev@gmail.com   inthebeginning1	
 ebay:   anatole.yakovlev    spiritof86				
-.	    	Yandex		anatolij.novikov2016@ya.ru	Spiritof12Yandex	https://yandex.ru/sprav/companies/								spiritof86	spiritof	vtb24:13553705.   76543218	
+							spiritof86	spiritof	vtb24:13553705.   76543218	
 ebay:   anatole.yakovlev    spiritof86	omygod	
 ebay:   anatole.yakovlev    spiritof86		spiritof	omygod	omygod2009	intheBEGINNING61	facebook:omygod	Inthebeginning1            Anatole.yakovlev@gmail.com						
 .	3	контакт		79096009912	Spiritof12						   ээ\л\вдоюм	 													
