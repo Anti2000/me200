@@ -3,14 +3,14 @@ THE REPAIR OF FLAT. .
 test
 direction: .
 
-espenses:
-1. kvarqvinil: 150.
-2. adnryu:110.
+espenses
+2. adnryu: 35.
 3. shkafu 20. 
 4. adnryu 70.
 5. Обои 20
 6. door 50.
-7. bed. .100
+
+
 520
 70+250=320 
 
