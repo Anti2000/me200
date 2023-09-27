@@ -1,6 +1,24 @@
-2023-09-26 18:32:23.505698
+2023-09-27 13:00:23.505691
 
 THE REPAIR OF FLAT. .
+
+buing:
+skotch
+kran kitchen
+kran vanna
+bruski
+oboi
+podlojka Volga
+podlojka usual
+plintusa
+inrokras panel
+svetilniki
+osmos
+
+waiting:
+doors
+
+doing:
 
 test
 direction: .
