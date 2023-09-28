@@ -1,19 +1,21 @@
-2023-09-27 14:00:23.505691
+2023-09-28 16:00:23.505691
 
 THE REPAIR OF FLAT. .
 
 buing:
-шумка
-kran kitchen
-kran vanna
-bruski
-oboi
+шумка / know where i can buy /2023-09-27 14:00:23.505691
+kran_kitchen / find and buy /2023-09-27 14:00:23.505691
+kran vanna / 2023-09-27 14:00:23.505691
+bruski / 2023-09-27 14:00:23.505691
+oboi / 2023-09-27 14:00:23.505691
 podlojka Volga
 podlojka usual
 plintusa
 inrokras panel
 svetilniki
 osmos
+
+doing: 
 
 waiting:
 doors
