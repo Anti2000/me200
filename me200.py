@@ -1,21 +1,27 @@
-2023-09-28 16:00:23.505691
+2023-09-28 18:53:23.505691
 
 THE REPAIR OF FLAT. .
+wake up for dont stop jobs and all for transver with minimum expenses.  .
 
 buing:
+svetilniki / buy it in vodoley(find adreas) / 2023-09-27 14:00:23.111111
 шумка / know where i can buy /2023-09-27 14:00:23.505691
 kran_kitchen / find and buy /2023-09-27 14:00:23.505691
 kran vanna / 2023-09-27 14:00:23.505691
-bruski / 2023-09-27 14:00:23.505691
-oboi / 2023-09-27 14:00:23.505691
-podlojka Volga
-podlojka usual
-plintusa
-inrokras panel
-svetilniki
-osmos
+tumba in bath / resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
+oboi / find it and buy / 2023-09-27 14:00:23.505691
+podlojka Volga / find where, take size / 2023-09-27 14:00:23.111111
+podlojka usual  / find where, take size / 2023-09-27 14:00:23.111111
+plintusa  / find where, take size / 2023-09-27 14:00:23.111111
+inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
+
+second for buying:
+osmos  / find where / 2023-09-27 14:00:23.111111
 
 doing: 
+resolve questions with credits / 2023-09-27 14:00:23.111111
+give money Andrew sh / 2023-09-27 14:00:23.111111
+give money Andrew of / 2023-09-27 14:00:23.111111
 
 waiting:
 doors
