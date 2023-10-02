@@ -1,22 +1,26 @@
-2023-09-28 18:53:23.505691
+2023-10-02 18:53:23.505691
 
 THE REPAIR OF FLAT. .
 wake up for dont stop jobs and all for transver with minimum expenses.  .
 
-buing:
+
+
+doing: 
+tumba in bath / resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
 svetilniki / buy it in vodoley(find adreas) / 2023-09-27 14:00:23.111111
 шумка / know where i can buy /2023-09-27 14:00:23.505691
 kran_kitchen / find and buy /2023-09-27 14:00:23.505691
 kran vanna / 2023-09-27 14:00:23.505691
-tumba in bath / resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
 oboi / find it and buy / 2023-09-27 14:00:23.505691
 podlojka Volga / find where, take size / 2023-09-27 14:00:23.111111
 podlojka usual  / find where, take size / 2023-09-27 14:00:23.111111
 plintusa  / find where, take size / 2023-09-27 14:00:23.111111
 inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
+osmos  / find where / 2023-09-27 14:00:23.111111
+
 
 second for buying:
-osmos  / find where / 2023-09-27 14:00:23.111111
+
 
 doing: 
 resolve questions with credits / 2023-09-27 14:00:23.111111
@@ -27,6 +31,7 @@ waiting:
 doors
 
 doing:
+debt / know how much prepare money and how i can pay up / 2023-09-28
 
 test
 direction: .
@@ -119,6 +124,9 @@ doors: .
 kitchen: .
 1. buy osmos. .
 2. buy kran. .
+
+
+me / donor / make up registration/ 2023-09
 
 
 Пыльник
