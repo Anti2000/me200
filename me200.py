@@ -5,6 +5,7 @@ wake up for dont stop jobs and all for transver with minimum expenses.  .
 
 
 doing: 
+start studying of tiles.
 resolve questions with Andrew of 
 tumba in bath / resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
 svetilniki / buy it in vodoley(find adreas) / 2023-09-27 14:00:23.111111
