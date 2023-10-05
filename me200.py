@@ -1,18 +1,17 @@
-2023-10-05 16:04:58.064267
+2023-10-05 20:11:12.679216
 
 important deals:
+password / find passwords, check its, add in me203 / 2023-10-02
 nalog pay up / inter in account and find what is the pay / 2023-10-03
 donor / make up registration / 2023-10-04
 car / fabia / take back engine pillow / 2023-10-03
+car / fabia / screen-wiper / find and install it / 2023-10-04
 
 
 THE REPAIR OF FLAT. .
-wake up for dont stop jobs and all for transver with minimum expenses.  .
+strategy / wake up for dont stop jobs and all for transver with minimum expenses.  .
 
-
-doing: 
-meet with Alexey 
-resolve questions with Andrew of 
+buy 
 tumba in bath / resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
 svetilniki / buy it in vodoley(find adreas) / 2023-09-27 14:00:23.111111
 шумка / know where i can buy /2023-09-27 14:00:23.505691
