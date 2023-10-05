@@ -1,11 +1,17 @@
 2023-10-03 16:53:23.505691
 
+important deals:
+nalog pay up / inter in account and find what is the pay / 2023-10-03
+donor / make up registration / 2023-10-04
+car / fabia / take back engine pillow / 2023-10-03
+
+
 THE REPAIR OF FLAT. .
 wake up for dont stop jobs and all for transver with minimum expenses.  .
 
 
 doing: 
-start studying of tiles.
+meet with Alexey 
 resolve questions with Andrew of 
 tumba in bath / resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
 svetilniki / buy it in vodoley(find adreas) / 2023-09-27 14:00:23.111111
@@ -18,15 +24,10 @@ podlojka usual  / find where, take size / 2023-09-27 14:00:23.111111
 plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
 inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
 osmos  / find where / 2023-09-27 14:00:23.111111
-
-
-second for buying:
-
-
-doing: 
 resolve questions with credits / 2023-09-27 14:00:23.111111
 give money Andrew sh / 2023-09-27 14:00:23.111111
 give money Andrew of / 2023-09-27 14:00:23.111111
+
 
 waiting:
 doors
