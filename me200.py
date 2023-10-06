@@ -1,4 +1,4 @@
-2023-10-06 11:12:19.119498
+2023-10-06 19:27:52.123283
 
 important deals:
 password / find passwords, check its, add in me203 / 2023-10-02
@@ -6,15 +6,23 @@ nalog pay up / inter in account and find what is the pay / 2023-10-03
 donor / make up registration / 2023-10-04
 car / fabia / take back engine pillow / 2023-10-03
 car / fabia / screen-wiper / find and install it / 2023-10-04
-
+workhands / know about deeds / 2023-10-05
 
 THE REPAIR OF FLAT. .
 strategy / wake up for dont stop jobs and all for transver with minimum expenses.  .
 
-buy 
-tumba in bath / resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
-svetilniki / buy it in vodoley(find adreas) / 2023-09-27 14:00:23.111111
-шумка / know where i can buy /2023-09-27 14:00:23.505691
+
+наложил ли гидроизоляцию.
+
+teapot / ask to parent law /
+buy new holder for window / 
+box thing / stand up /
+floor ronvuy
+flat / buy new keys / 2023-10-05
+tumba in bath / call to piter, resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
+bath / ask dima about plastun, find santehnik, find who tiler / 2023-10-05
+svetilniki / find last / 2023-09-27 14:00:23.111111
+flock / know where i can buy /2023-09-27 14:00:23.505691
 kran_kitchen / find and buy /2023-09-27 14:00:23.505691
 kran vanna / 2023-09-27 14:00:23.505691
 oboi / find it and buy / 2023-09-27 14:00:23.505691
@@ -26,10 +34,8 @@ osmos  / find where / 2023-09-27 14:00:23.111111
 resolve questions with credits / 2023-09-27 14:00:23.111111
 give money Andrew sh / 2023-09-27 14:00:23.111111
 give money Andrew of / 2023-09-27 14:00:23.111111
+doors / go and buy / 2023-10-05
 
-
-waiting:
-doors
 
 doing:
 debt / know how much prepare money and how i can pay up / 2023-09-28
@@ -86,10 +92,6 @@ walls: .
 6. stick oboi. .
 
 
-Наливной floor. .
-2. speak with jober. . now. .
-3. export other thing. now . .
-4. define day. .
 
 
 warm floor. .
@@ -125,6 +127,16 @@ doors: .
 kitchen: .
 1. buy osmos. .
 2. buy kran. .
+
+
+debt of Andrew:
+keys 1800
+domofon keys 400
+povredil perfitator. i armotizaziya
+завалена стена
+неровный пол.
+просроченная краска на стены.
+valik
 
 
 me / donor / make up registration/ 2023-09
