@@ -1,4 +1,4 @@
-2023-10-07 12:02:57.690490
+2023-10-07 19:43:15.601815
 
 important deals:
 password / find passwords, check its, add in me203 / 2023-10-02
@@ -14,6 +14,7 @@ strategy / wake up for dont stop jobs and all for transver with minimum expenses
 
 наложил ли гидроизоляцию.
 
+credit card vtb / check about money /
 teapot / ask to parent law /
 buy new holder for window / 
 box thing / stand up /
