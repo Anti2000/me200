@@ -1,4 +1,4 @@
-2023-10-07 10:52:51.307484
+2023-10-07 11:11:16.156774
 
 important deals:
 password / find passwords, check its, add in me203 / 2023-10-02
@@ -268,6 +268,31 @@ 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
           120. dinner. .
 
     PASSWORD: .
+              PASSWORD 1: .
+
+https://privetmir.ru/         Qetuo6186$ . .
+госуслуги	                   	antiohy@mail.ru	89096009912	TA1619m!  w88!?%EJn+8 .
+Сбербанк                      логин LAP_VALYA1954  пароль VALYA121!valya . .
+госуслуги                     laptev1954laptev1954@mail.ru  LAP_VALYA1954lap .
+sbre app                      Sber6186921619@ password .
+ozon:                         Z6r!CZNdndBZiH2 . anatole.yakovlev@gmail.com . .
+https://school.vtb.ru/start/  anatole.yakovlev@gmail.com hpDNzcE7Ms8hQ6s . .
+https://account.xiaomi.com/   Spiritof12!@ . .
+aliexpress	                  anatolij.novikov2016@ya.ru	  Spiritof12Aliexpress   .
+aliexpress(store)	            anatole.yakovlev@gmail.com	Asd25@# .
+Авито		                      anatole.yakovlev@gmail.com	sfgsWTL123G  8 987 861-27-61 comp: vaio. .
+laptev1954laptev1954@mail.ru  qetuo56! for buying of incs. .
+supreme vtb                   2200 4001 0151 0259 0125444 . .
+global.alipay.com             Anti Asd25@# . .
+teploplus                     Spiritof86921619 . .
+discord                       antiohy@mail.ru spiritof12 .
+py.antidasoftware.com         Anatole03 Ызшкшеща12 .
+android.avito.com             antiohy@mail.ru Spiritof12!@12 .
+ufannet_camery                Логин 32933333ST Пароль 89654785q .
+aliexpress store             	anton.novikov.storageone@gmail.com	sfgsWTL123G .
+aliexpress study	            antiohy@mail.ru	g.k56z,xijF2sVR .
+
+aliexpress mother 89878612761 E4inDacuRcF5kN8 .
     
           aliexpress https://seller.aliexpress.ru/  anatole.yakovlev@gmail.com  Asd25@# .
           avito novikov.timofey1952@gmail.com 8 995 839-59-17. firefox .
