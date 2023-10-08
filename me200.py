@@ -1,4 +1,4 @@
-2023-10-07 19:43:15.601815
+2023-10-08 11:01:12.995613
 
 important deals:
 password / find passwords, check its, add in me203 / 2023-10-02
@@ -11,123 +11,62 @@ workhands / know about deeds / 2023-10-05
 THE REPAIR OF FLAT. .
 strategy / wake up for dont stop jobs and all for transver with minimum expenses.  .
 
-
-наложил ли гидроизоляцию.
-
-credit card vtb / check about money /
-teapot / ask to parent law /
-buy new holder for window / 
-box thing / stand up /
-floor ronvuy
-flat / buy new keys / 2023-10-05
-tumba in bath / call to piter, resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
-bath / ask dima about plastun, find santehnik, find who tiler / 2023-10-05
+flat / meters / take utug / make up seals in shit. .
 svetilniki / find last / 2023-09-27 14:00:23.111111
-flock / know where i can buy /2023-09-27 14:00:23.505691
-kran_kitchen / find and buy /2023-09-27 14:00:23.505691
-kran vanna / 2023-09-27 14:00:23.505691
-oboi / find it and buy / 2023-09-27 14:00:23.505691
-podlojka Volga / find where, take size / 2023-09-27 14:00:23.111111
-podlojka usual  / find where, take size / 2023-09-27 14:00:23.111111
-plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
-inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
-osmos  / find where / 2023-09-27 14:00:23.111111
+deliver / grinder / 
+box thing / stand up fittings, find device, make up test, find and prepair lamp /
+flat / look video / Люк скрытого монтажа. wait jobs to bath 
+
+buy / dowels / 2023-10-08
+buy / installation / 
+buy / silicone grease /
+buy / little level / 
+buy / laser level /
+buy / spatula / 
+buy / mixer / 
+buy / container for mixer / 
+buy / cutting disc /
+buy / fine cutting disc /  
+buy / doing / floor ronvuy / buy device
+buy / kran vanna / 2023-09-27 14:00:23.505691
+flat / inter door / ask about installation / 
+oboi / stick  / 2023-09-27 14:00:23.505691
+flat / buy / vacuim cleaner / ask to vladimit /
+flat/ buy / tumba in bath / call to piter, resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
+
+buy / podlojka Volga / find where, take size / 2023-09-27 14:00:23.111111
+buy/ podlojka usual  / find where, take size / 2023-09-27 14:00:23.111111
+
+bath / find santehnik, find who tiler / 2023-10-05
+
+
+flat / vanna / flock / doing /2023-09-27 14:00:23.505691
+ask / did he put the waterproofing /
+flat / count how much primer, buy, prime up all /
+flat / know how resolve sill. /
+
+buy / doors / pay installation / 2023-10-05
+flat / entrance floor / go and make up order /
+
+
+bath / ask dima about plastun, find santehnik, find who tiler / 2023-10-05
+kran_kitchen / find replacement and wash it /2023-09-27 14:00:23.505691
+flat / doing / suspended ceilling / define day /
+buy / new holder for window /
+buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
+flat / buy / inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
+buy / osmos / find where / 2023-09-27 14:00:23.111111
 resolve questions with credits / 2023-09-27 14:00:23.111111
 give money Andrew sh / 2023-09-27 14:00:23.111111
 give money Andrew of / 2023-09-27 14:00:23.111111
-doors / go and buy / 2023-10-05
-
-
-doing:
-debt / know how much prepare money and how i can pay up / 2023-09-28
-
-test
-direction: .
-
-espenses
-2. adnryu: 35.
-3. shkafu 20. 
-4. adnryu 70.
-5. Обои 20
-6. door 50.
-
-
-520
-70+250=320 
-
-buyins: .
-1. magnits. now .
-3. Пластиковые сенвичпанели 50*150 8 шт, 50*210 1шт.. 
-4. Уголки 10*10 5 шт по 3 метра. 
-5. Пластиковая пэшки 6 шт. По 3 метра. 
-6. Люк скрытого монтажа. wait jobs to bath 
-7. Обои. now. .
-8. Плинтуса. .
-10. Полистирольную. 2мм 20 ква. 35кв. 3 мм. 
-11. Входные двери. 20.
-12. buy kvarqvinil. ??now .
-13. sill. now. .
-14. buy infokransiu panels. now. .
-15. podlojka 1. now .
-16. podlojka 2. now. .
-17. folga. 3. now.
-18. kran in kitchen. .
-19. kran in bath. .
-22 . svetilniki .
-
-total questions: .
-1. count money. everymoment .
-2. prepair credis cards. .
-3. carry out things. now. .
-4. carry in things. now .
-5. make up electrica in flat. now .
-6. make up seals in shit. .
-
-
-walls: .
-1. check results. now. .
-2. know about sill. now .
-3. door. .
-4. gruntovka. .
-5. oboi buy. .
-6. stick oboi. .
-
-
-
-
-warm floor. .
-1. know about posible and not. now .
-2. buy kvarqvinil. ??now .
-3. sill. now. .
-4. buy infokransiu panels. now. .
-5. podlojka 1. now .
-6. podlojka 2. now. .
-7. folga. 3. now .
-
-
-BATH: .
-1. carry plitka. now. .
-2. take the size. .
-3. luchok choose. .
-
-
-santehnika: .
-1. ask order in bath. .
-
-
-mebel: .
-1. sofa. now .
-2. bed. now .
-3. bedboards .
-
-
-doors: .
-1. doors. choose and buy. now.
-2. ask about date. now .
-
-kitchen: .
-1. buy osmos. .
-2. buy kran. .
+flat / deliver after 17.10 kvarqvinil. .
+flat / doing / carry in things /
+flat / doing / make up electrica in flat. / 
+flat / doing / walls / check results /
+flat / buy / sofa /
+flat / buy / bed / 
+flat / take size, take order / bedboards /
+flat / credit card vtb / check about money /
 
 
 debt of Andrew:
@@ -137,12 +76,9 @@ povredil perfitator. i armotizaziya
 завалена стена
 неровный пол.
 просроченная краска на стены.
-valik
 smesitel
 krujka 
-
-
-me / donor / make up registration/ 2023-09
+blinds
 
 
 Пыльник
@@ -302,6 +238,29 @@ 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
           avito yandex app avito antiohy@mail.ru 89953518343 iXu-JsY-6aq-aF2 . .
           exist 89096009912 . .
           Yandex alisa light anatolij.novikov2016@ya.ru .
+          https://privetmir.ru/         Qetuo6186$ . .
+госуслуги	                   	antiohy@mail.ru	89096009912	TA1619m!  w88!?%EJn+8 .
+Сбербанк                      логин LAP_VALYA1954  пароль VALYA121!valya . .
+госуслуги                     laptev1954laptev1954@mail.ru  LAP_VALYA1954lap .
+sbre app                      Sber6186921619@ password .
+ozon:                         Z6r!CZNdndBZiH2 . anatole.yakovlev@gmail.com . .
+https://school.vtb.ru/start/  anatole.yakovlev@gmail.com hpDNzcE7Ms8hQ6s . .
+https://account.xiaomi.com/   Spiritof12!@ . .
+aliexpress	                  anatolij.novikov2016@ya.ru	  Spiritof12Aliexpress   .
+aliexpress(store)	            anatole.yakovlev@gmail.com	Asd25@# .
+Авито		                      anatole.yakovlev@gmail.com	sfgsWTL123G  8 987 861-27-61 comp: vaio. .
+laptev1954laptev1954@mail.ru  qetuo56! for buying of incs. .
+supreme vtb                   2200 4001 0151 0259 0125444 . .
+global.alipay.com             Anti Asd25@# . .
+teploplus                     Spiritof86921619 . .
+discord                       antiohy@mail.ru spiritof12 .
+py.antidasoftware.com         Anatole03 Ызшкшеща12 .
+android.avito.com             antiohy@mail.ru Spiritof12!@12 .
+ufannet_camery                Логин 32933333ST Пароль 89654785q .
+aliexpress store             	anton.novikov.storageone@gmail.com	sfgsWTL123G .
+aliexpress study	            antiohy@mail.ru	g.k56z,xijF2sVR .
+
+aliexpress mother 89878612761 E4inDacuRcF5kN8 .
 
     FOOD: .
      brain for brain: .
