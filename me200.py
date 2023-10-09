@@ -1,4 +1,4 @@
-2023-10-08 11:01:12.995613
+2023-10-09 09:36:57.742428
 
 important deals:
 password / find passwords, check its, add in me203 / 2023-10-02
@@ -11,24 +11,17 @@ workhands / know about deeds / 2023-10-05
 THE REPAIR OF FLAT. .
 strategy / wake up for dont stop jobs and all for transver with minimum expenses.  .
 
-flat / meters / take utug / make up seals in shit. .
+flat / meters / make design / make up seals in shit. .
 svetilniki / find last / 2023-09-27 14:00:23.111111
-deliver / grinder / 
 box thing / stand up fittings, find device, make up test, find and prepair lamp /
 flat / look video / Люк скрытого монтажа. wait jobs to bath 
+flat / look video gipsocarton / 
 
-buy / dowels / 2023-10-08
-buy / installation / 
-buy / silicone grease /
-buy / little level / 
-buy / laser level /
-buy / spatula / 
-buy / mixer / 
-buy / container for mixer / 
-buy / cutting disc /
-buy / fine cutting disc /  
-buy / doing / floor ronvuy / buy device
-buy / kran vanna / 2023-09-27 14:00:23.505691
+flat / cut keramogranit, put it / 
+flat / install installation / define level, place, install / 
+flat / bath / warm, install / 
+flat / piping / design, / 
+buy / kran vanna / find it / 2023-09-27 14:00:23.505691
 flat / inter door / ask about installation / 
 oboi / stick  / 2023-09-27 14:00:23.505691
 flat / buy / vacuim cleaner / ask to vladimit /
