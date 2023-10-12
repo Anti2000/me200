@@ -1,4 +1,20 @@
-2023-10-09 09:40:04.776829
+2023-10-12 21:50:42.950751
+
+import charch order
+variables hardcode переменные вынести.
+f string.
+отступы
+исключение 48 expension
+пробелы ±
+request? look in telegram
+raise 50 line
+стрелка умолчанию None.
+
+wood
+bumf
+extender
+
+
 
 important deals:
 password / find passwords, check its, add in me203 / 2023-10-02
