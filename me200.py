@@ -1,4 +1,38 @@
-2023-10-12 22:14:43.279252
+2023-10-13 17:24:04.539081
+
+
+  brain: .
+    thinking circle: .
+          001_the permorded deals.faster define the three deals for executing and doing it with parallel deals. /13.57
+          002. the base deals. define the three base deals for doing and doing it. .
+          003. the important deals. define the three important deals and doing it. .
+          004. Gods will. .
+          005. english. .
+          006. questions. .
+          007. chess. .
+          008. math. .
+          009. repeat the base. .
+          010. write program. .
+          101.  wash face. .
+          102. straight up hair. .
+          103. teethbrushing. .
+          104. freshen up. .
+          105. coffee. .
+          106. teapot. .
+          107. cough. .
+          108. exersise. .
+          109. Bible. .
+          110. pray. .
+          111. breakfast. .
+          112. email. .
+          113. plan. .
+          114. question. .
+          115. reading. .
+          117. shoes. .
+          118. dwelling order. .
+          119. db_me. .
+          120. dinner. .
+          
 
 import charch order
 variables hardcode переменные вынести.
@@ -13,6 +47,7 @@ raise 50 line
 wood
 bumf
 extender
+умягчитель воды.
 
 
 
@@ -120,9 +155,6 @@ Spinach
 Николай стибунов. Двигатель перед мостом .
 
 
-
-
-
 Рха666
 +79960787468
 
@@ -207,37 +239,6 @@ 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
 
   goals: .
 
-  brain: .
-    thinking circle: .
-          001. the permorded deals.faster define the three deals for executing and doing it. .
-          002. the base deals. define the three base deals for doing and doing it. .
-          003. the important deals. define the three important deals and doing it. .
-          004. Gods will. .
-          005. english. .
-          006. questions. .
-          007. chess. .
-          008. math. .
-          009. repeat the base. .
-          010. write program. .
-          101. wash face. .
-          102. straight up hair. .
-          103. teethbrushing. .
-          104. freshen up. .
-          105. coffee. .
-          106. teapot. .
-          107. cough. .
-          108. exersise. .
-          109. Bible. .
-          110. pray. .
-          111. breakfast. .
-          112. email. .
-          113. plan. .
-          114. question. .
-          115. reading. .
-          117. shoes. .
-          118. dwelling order. .
-          119. db_me. .
-          120. dinner. .
 
     PASSWORD: .
     
