@@ -1,10 +1,10 @@
-2023-10-13 17:24:04.539081
+2023-10-13 22:49:48.985592
 
 
   brain: .
     thinking circle: .
-          001_the permorded deals.faster define the three deals for executing and doing it with parallel deals. /13.57
-          002. the base deals. define the three base deals for doing and doing it. .
+          001_the permorded deals / faster define the three deals for executing and doing it with parallel deals. /13.57
+          002. the base deals / define the three base deals for doing and doing it. . / 01:05.27
           003. the important deals. define the three important deals and doing it. .
           004. Gods will. .
           005. english. .
