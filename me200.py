@@ -1,4 +1,4 @@
-2023-10-14 10:53:44.208804
+2023-10-14 13:55:09.628620
 
 
   brain: .
@@ -32,43 +32,50 @@
           118. dwelling order. .
           119. db_me. .
           120. dinner. .
-_?00
-important deals:
-python study / 10:00
-take statement for taya / 11:10
-vtb cashback / 12:20 
 
+bath->
+door->
+kitchen ->
+
+_?00_IMPORTING DEALS:
 softener of water / 12:00
-delivery from lerua merlin ( glue, hatch) / 16:00          
-nalog pay up / inter in account and find what is the pay / 2023-10-03
+delivery from lerua merlin ( glue, hatch) / 16:00
+buy / osmos / find where / 2023-09-27 14:00:23.111111
 
-password ( find passwords, check its, add in me203) 2023-10-02
-workhands / know about deeds / 2023-10-05
-delivery tabletop / 2023-10-15 09:00
-
-delivery facade / 2023-10-15 09:00
-car / fabia / take back engine pillow / 2023-10-03
-car / fabia / screen-wiper / find and install it / 2023-10-04
-
+check door/ clear room 
 box thing / stand up fittings, find device, make up test, find and prepair lamp /
-refactoring (import charch order, variables hardcode переменные вынести, f string, отступы, исключение 48 expension, пробелы ±, request? look in telegram, raise 50 line, стрелка умолчанию None)
-donor / make up registration / 2023-10-04
 
 buy / podlojka Volga / find where, take size / 2023-09-27 14:00:23.111111
 buy/ podlojka usual  / find where, take size / 2023-09-27 14:00:23.111111
-entrance door ( know date) / 10:00
-
-svetilniki / find last / 2023-09-27 14:00:23.111111
 buy / kran vanna / find it / 2023-09-27 14:00:23.505691
 buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
-buy / osmos / find where / 2023-09-27 14:00:23.111111
-flat / buy / inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
+buy / new holder for window /
 
+flat / buy / inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
+kran_kitchen / find replacement and wash it /2023-09-27 14:00:23.505691
+
+delivery tabletop / 2023-10-15 09:00
+delivery facade / 2023-10-15 09:00
+delivery vinyl tile / 2023-10-15
+
+entrance door ( know date) / 10:00
+interior door ( know date) / 10:00
+
+svetilniki / find last / 2023-09-27 14:00:23.111111
+
+nalog pay up / inter in account and find what is the pay / 2023-10-03
+python study / 10:00
+password ( find passwords, check its, add in me203) 2023-10-02
+workhands / know about deeds / 2023-10-05
+car / fabia / take back engine pillow / 2023-10-03
+car / fabia / screen-wiper / find and install it / 2023-10-04
+refactoring (import charch order, variables hardcode переменные вынести, f string, отступы, исключение 48 expension, пробелы ±, request? look in telegram, raise 50 line, стрелка умолчанию None)
+donor / make up registration / 2023-10-04
+vtb cashback / 12:20
 
 THE REPAIR OF FLAT. .
 strategy / wake up for dont stop jobs and all for transver with minimum expenses.  .
 first variant ( with andry ofch) 
-buy / new holder for window /
 
 flat / meters / make design / make up seals in shit. .
 flat / look video / Люк скрытого монтажа. wait jobs to bath 
@@ -79,27 +86,17 @@ flat / bath / warm, install /
 flat / piping / design, / 
 flat / inter door / ask about installation / 
 oboi / stick  / 2023-09-27 14:00:23.505691
-flat / buy / vacuim cleaner / ask to vladimit /
-flat/ buy / tumba in bath / call to piter, resulve questions with space and buy results/ 2023-09-27 14:00:23.111111
-
-
 bath / find santehnik, find who tiler / 2023-10-05
-
-
 flat / vanna / flock / doing /2023-09-27 14:00:23.505691
 ask / did he put the waterproofing /
 flat / count how much primer, buy, prime up all /
 flat / know how resolve sill. /
 
-buy / doors / pay installation / 2023-10-05
-
-
-kran_kitchen / find replacement and wash it /2023-09-27 14:00:23.505691
 flat / doing / suspended ceilling / define day /
 resolve questions with credits / 2023-09-27 14:00:23.111111
 give money Andrew sh / 2023-09-27 14:00:23.111111
 give money Andrew of / 2023-09-27 14:00:23.111111
-flat / deliver after 17.10 kvarqvinil. .
+
 flat / doing / carry in things /
 flat / doing / make up electrica in flat. / 
 flat / doing / walls / check results /
