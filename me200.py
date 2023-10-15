@@ -1,4 +1,4 @@
-2023-10-14 13:55:09.628620
+2023-10-15 19:24:28.167520
 
 
   brain: .
@@ -38,40 +38,44 @@ door->
 kitchen ->
 
 _?00_IMPORTING DEALS:
-softener of water / 12:00
-delivery from lerua merlin ( glue, hatch) / 16:00
-buy / osmos / find where / 2023-09-27 14:00:23.111111
 
-check door/ clear room 
+repair / svetilniki / find last / 20:00
+know about sistem from leak water / 20:00
+buy / podlojka Volga / find where, take size / 18:00
+
+nalog pay up / inter in account and find what is the pay / 20:00
+kran_kitchen / find replacement and wash it / 18:10
+buy / kran vanna / find it / 18:20
+
+python study / 22:00
+password ( find passwords, check its, add in me203) / 23:00
+____________________________________________________________________________
+define design tubes in bath / 16-10
+workhands / know about deeds / 16-10 09:00
+delivery from lerua merlin ( glue, hatch) / 16-10 09:00 30
+
+check door/ clear room / 16-10 09:30 120
 box thing / stand up fittings, find device, make up test, find and prepair lamp /
-
-buy / podlojka Volga / find where, take size / 2023-09-27 14:00:23.111111
-buy/ podlojka usual  / find where, take size / 2023-09-27 14:00:23.111111
-buy / kran vanna / find it / 2023-09-27 14:00:23.505691
-buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
-buy / new holder for window /
-
-flat / buy / inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
-kran_kitchen / find replacement and wash it /2023-09-27 14:00:23.505691
-
 delivery tabletop / 2023-10-15 09:00
+
 delivery facade / 2023-10-15 09:00
 delivery vinyl tile / 2023-10-15
+buy / inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
+
+buy / new holder for window /
+_________________________________________________________________________________
+buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
+delivery / osmos / 18:10
 
 entrance door ( know date) / 10:00
 interior door ( know date) / 10:00
 
-svetilniki / find last / 2023-09-27 14:00:23.111111
-
-nalog pay up / inter in account and find what is the pay / 2023-10-03
-python study / 10:00
-password ( find passwords, check its, add in me203) 2023-10-02
-workhands / know about deeds / 2023-10-05
 car / fabia / take back engine pillow / 2023-10-03
 car / fabia / screen-wiper / find and install it / 2023-10-04
 refactoring (import charch order, variables hardcode переменные вынести, f string, отступы, исключение 48 expension, пробелы ±, request? look in telegram, raise 50 line, стрелка умолчанию None)
 donor / make up registration / 2023-10-04
 vtb cashback / 12:20
+andry / невролог / 27-10 17:30  
 
 THE REPAIR OF FLAT. .
 strategy / wake up for dont stop jobs and all for transver with minimum expenses.  .
