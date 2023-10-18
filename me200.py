@@ -1,4 +1,4 @@
-2023-10-18 20:04:23.275093
+2023-10-19 02:51:11.344083
 
 
   brain: .
@@ -39,16 +39,15 @@ kitchen ->
 
 _?00_IMPORTING DEALS:
 ________________________________________________________________
-toilet paper / take for flat / 20:00
-design osmos, kitchen / 20-10
-installation / find botton, ask bill, know models  / 20:20
-
-nalog pay up / inter in account and find what is the pay / 20:00
 python study / 22:00
+nalog pay up / inter in account and find what is the pay / 20:00
 password ( find passwords, check its, add in me203) / 23:00
 
 repair / svetilniki / find last / 20:00
 ________________________________________________________________
+toilet paper / take for flat / 20:00
+design osmos, kitchen / 20-10
+installation / find botton, ask bill, know models  / 20:20
 grimping / 19-10
 workhands /call to organisation,  know about deeds / 19-10 09:00
 delivery tabletop / 19-10 09:00
@@ -238,6 +237,8 @@ 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
 
 
     PASSWORD: .
+    
+    chulo2019@yahoo.com:VjB4R1tbcv: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
     
           aliexpress https://seller.aliexpress.ru/  anatole.yakovlev@gmail.com  Asd25@# .
           avito novikov.timofey1952@gmail.com 8 995 839-59-17. firefox .
