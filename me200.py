@@ -1,4 +1,4 @@
-2023-10-15 19:24:28.167520
+2023-10-18 12:23:48.788197
 
 
   brain: .
@@ -38,37 +38,47 @@ door->
 kitchen ->
 
 _?00_IMPORTING DEALS:
-
-repair / svetilniki / find last / 20:00
-know about sistem from leak water / 20:00
-buy / podlojka Volga / find where, take size / 18:00
-
-nalog pay up / inter in account and find what is the pay / 20:00
-kran_kitchen / find replacement and wash it / 18:10
-buy / kran vanna / find it / 18:20
-
-python study / 22:00
-password ( find passwords, check its, add in me203) / 23:00
 ____________________________________________________________________________
-define design tubes in bath / 16-10
-workhands / know about deeds / 16-10 09:00
-delivery from lerua merlin ( glue, hatch) / 16-10 09:00 30
+design osmos, kitchen / 
+find unitaz / 
+plitka zatirka / 18-10
 
-check door/ clear room / 16-10 09:30 120
-box thing / stand up fittings, find device, make up test, find and prepair lamp /
+workhands / know about deeds / 16-10 09:00
+choes / write number of order, sent pic /
+arrow / call ask about shift, tell about sick / 
+
 delivery tabletop / 2023-10-15 09:00
+delivery things / check door/ clear room / 16-10 09:30 120
+box thing / find device, make up test, check second lamp /
 
 delivery facade / 2023-10-15 09:00
 delivery vinyl tile / 2023-10-15
 buy / inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
 
+back money for sistem protect water / 20-10
+buy / podlojka Volga / find where, take size / 18:00
+kran_kitchen / find replacement and wash it / 18:10
+
+buy / kran vanna / find it / 18:20
+nalog pay up / inter in account and find what is the pay / 20:00
+python study / 22:00
+
+password ( find passwords, check its, add in me203) / 23:00
+repair / svetilniki / find last / 20:00
 buy / new holder for window /
+
+know about sistem from leak water / 20:00
+entrance door ( know date) / 10:00
+interior door ( know date) / 10:00
+
+mirror / taka size, buy /
+take back buy /
+propka back
+infokr back
+pocket back
 _________________________________________________________________________________
 buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
 delivery / osmos / 18:10
-
-entrance door ( know date) / 10:00
-interior door ( know date) / 10:00
 
 car / fabia / take back engine pillow / 2023-10-03
 car / fabia / screen-wiper / find and install it / 2023-10-04
