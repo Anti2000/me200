@@ -1,4 +1,4 @@
-2023-10-18 12:23:48.788197
+2023-10-18 19:23:13.058368
 
 
   brain: .
@@ -39,15 +39,19 @@ kitchen ->
 
 _?00_IMPORTING DEALS:
 ____________________________________________________________________________
-design osmos, kitchen / 
-find unitaz / 
-plitka zatirka / 18-10
-
-workhands / know about deeds / 16-10 09:00
-choes / write number of order, sent pic /
 arrow / call ask about shift, tell about sick / 
+choes / write number of order, sent pic /
+filters / know about time of taking / 
 
 delivery tabletop / 2023-10-15 09:00
+workhands / know about deeds / 16-10 09:00
+toilet paper / take for flat /
+
+design osmos, kitchen / 
+
+installation / find botton, ask bill, know models  / 
+
+
 delivery things / check door/ clear room / 16-10 09:30 120
 box thing / find device, make up test, check second lamp /
 
