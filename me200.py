@@ -1,4 +1,4 @@
-2023-10-18 19:23:13.058368
+2023-10-18 20:04:23.275093
 
 
   brain: .
@@ -38,44 +38,49 @@ door->
 kitchen ->
 
 _?00_IMPORTING DEALS:
-____________________________________________________________________________
-arrow / call ask about shift, tell about sick / 
-choes / write number of order, sent pic /
-filters / know about time of taking / 
+________________________________________________________________
+toilet paper / take for flat / 20:00
+design osmos, kitchen / 20-10
+installation / find botton, ask bill, know models  / 20:20
 
-delivery tabletop / 2023-10-15 09:00
-workhands / know about deeds / 16-10 09:00
-toilet paper / take for flat /
-
-design osmos, kitchen / 
-
-installation / find botton, ask bill, know models  / 
-
-
-delivery things / check door/ clear room / 16-10 09:30 120
-box thing / find device, make up test, check second lamp /
-
-delivery facade / 2023-10-15 09:00
-delivery vinyl tile / 2023-10-15
-buy / inrokras panel  / find where, take size / 2023-09-27 14:00:23.111111
-
-back money for sistem protect water / 20-10
-buy / podlojka Volga / find where, take size / 18:00
-kran_kitchen / find replacement and wash it / 18:10
-
-buy / kran vanna / find it / 18:20
 nalog pay up / inter in account and find what is the pay / 20:00
 python study / 22:00
-
 password ( find passwords, check its, add in me203) / 23:00
+
 repair / svetilniki / find last / 20:00
-buy / new holder for window /
+________________________________________________________________
+grimping / 19-10
+workhands /call to organisation,  know about deeds / 19-10 09:00
+delivery tabletop / 19-10 09:00
+choes / write number of order, sent pic / 19-10
+printer / make up outputing / 19-10
+delivery things / check door/ clear room / 19-10
+box thing / find device, make up test, check second lamp / 19-10
+kran_kitchen / find replacement and wash it / 19-10
+buy / kran vanna / find it / 19-10
+________________________________________________________________
+arrow / call ask about shift, tell about sick / 20-10 
+delivery facade / 20-10
+delivery vinyl tile / 20-10
+buy / inrokras panel  / find where, take size / 20-10
+back money for sistem protect water / 20-10
+buy / podlojka Volga / find where, take size / 18:00
+________________________________________________________________
+filters / know about time of taking / 23-10
 
-know about sistem from leak water / 20:00
-entrance door ( know date) / 10:00
-interior door ( know date) / 10:00
+buy / new holder for window / 26-10
+mirror / after install tumba, taka size, buy / 19-10
+know about sistem from leak water / 23-10
+entrance door ( know date) / 23-10
+interior door ( know date) / 23-10
 
-mirror / taka size, buy /
+vtb cashback / 12:20
+andry / невролог / 27-10 17:30  
+
+oboi / stick  / 2023-09-27 14:00:23.505691
+flat / doing / suspended ceilling / define day /
+resolve questions with credits / 2023-09-27 14:00:23.111111
+
 take back buy /
 propka back
 infokr back
@@ -83,35 +88,16 @@ pocket back
 _________________________________________________________________________________
 buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
 delivery / osmos / 18:10
-
 car / fabia / take back engine pillow / 2023-10-03
 car / fabia / screen-wiper / find and install it / 2023-10-04
 refactoring (import charch order, variables hardcode переменные вынести, f string, отступы, исключение 48 expension, пробелы ±, request? look in telegram, raise 50 line, стрелка умолчанию None)
 donor / make up registration / 2023-10-04
-vtb cashback / 12:20
-andry / невролог / 27-10 17:30  
-
-THE REPAIR OF FLAT. .
-strategy / wake up for dont stop jobs and all for transver with minimum expenses.  .
-first variant ( with andry ofch) 
-
-flat / meters / make design / make up seals in shit. .
-flat / look video / Люк скрытого монтажа. wait jobs to bath 
-flat / look video gipsocarton / 
-flat / cut keramogranit, put it / 
-flat / install installation / define level, place, install / 
-flat / bath / warm, install / 
-flat / piping / design, / 
-flat / inter door / ask about installation / 
-oboi / stick  / 2023-09-27 14:00:23.505691
 bath / find santehnik, find who tiler / 2023-10-05
 flat / vanna / flock / doing /2023-09-27 14:00:23.505691
 ask / did he put the waterproofing /
 flat / count how much primer, buy, prime up all /
 flat / know how resolve sill. /
 
-flat / doing / suspended ceilling / define day /
-resolve questions with credits / 2023-09-27 14:00:23.111111
 give money Andrew sh / 2023-09-27 14:00:23.111111
 give money Andrew of / 2023-09-27 14:00:23.111111
 
