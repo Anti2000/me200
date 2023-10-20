@@ -1,4 +1,4 @@
-2023-10-19 02:51:11.344083
+2023-10-20 17:03:00.641485
 
 
   brain: .
@@ -39,26 +39,23 @@ kitchen ->
 
 _?00_IMPORTING DEALS:
 ________________________________________________________________
-python study / 22:00
-nalog pay up / inter in account and find what is the pay / 20:00
-password ( find passwords, check its, add in me203) / 23:00
-
-repair / svetilniki / find last / 20:00
-________________________________________________________________
-toilet paper / take for flat / 20:00
-design osmos, kitchen / 20-10
-installation / find botton, ask bill, know models  / 20:20
-grimping / 19-10
+arrow / call ask about shift, tell about sick / 20-10 
 workhands /call to organisation,  know about deeds / 19-10 09:00
 delivery tabletop / 19-10 09:00
+
+entrance door ( know date) / 23-10
+
+design osmos, kitchen / 20-10
+installation / find botton, ask bill, know models  / 20:20
 choes / write number of order, sent pic / 19-10
-printer / make up outputing / 19-10
 delivery things / check door/ clear room / 19-10
 box thing / find device, make up test, check second lamp / 19-10
 kran_kitchen / find replacement and wash it / 19-10
 buy / kran vanna / find it / 19-10
-________________________________________________________________
-arrow / call ask about shift, tell about sick / 20-10 
+python study / 22:00
+nalog pay up / inter in account and find what is the pay / 20:00
+password ( find passwords, check its, add in me203) / 23:00
+repair / svetilniki / find last / 20:00
 delivery facade / 20-10
 delivery vinyl tile / 20-10
 buy / inrokras panel  / find where, take size / 20-10
@@ -70,7 +67,7 @@ filters / know about time of taking / 23-10
 buy / new holder for window / 26-10
 mirror / after install tumba, taka size, buy / 19-10
 know about sistem from leak water / 23-10
-entrance door ( know date) / 23-10
+
 interior door ( know date) / 23-10
 
 vtb cashback / 12:20
