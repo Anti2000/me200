@@ -1,4 +1,4 @@
-2023-10-21 18:09:17.010770
+2023-10-21 20:12:33.827533
 
   brain: .
     thinking circle: .
@@ -38,46 +38,52 @@
 
 _?00_IMPORTING DEALS:
 _______________________________________
+choes / write number of order, sent pic / 21-10
+back money for sistem protect water / 21-10
+password ( find passwords, check its, add in me203) / 21-10
 
-magnits
+installation / find botton, ask bill, know models / 21-10
+python study / 21-10
+repair / svetilniki / find last / 21-00
 
-kran_kitchen / find replacement and wash it / 19-10
-buy / kran vanna / find it / 19-10
-installation / find botton, ask bill, know models / 20:20
-
-python study / 22:00
-repair / svetilniki / find last / 20:00
-nalog pay up / inter in account and find what is the pay / 20:00
-
-choes / write number of order, sent pic / 19-10
-back money for sistem protect water / 20-10
-password ( find passwords, check its, add in me203) / 23:00
-__________________________________
-workhands /call to organisation,  know about deeds / 21-10 09:00
-delivery vinyl tile / 21-10
-delivery things / check door/ clear room / 19-10
-_____________________
+nalog pay up / inter in account and find what is the pay / 21-10
+fabia / screen-wiper / 21-10
+_______________________________________
+back magnits / 22-10 
+buy kran_kitchen / 22-10
+_______________________________________
 arrow / call ask about shift, tell about sick / 23-10
+check floor with andry / 23-10
+workhands /call to organisation,  know about deeds / 23-10
+
+bath faucet / take size, buy /  23-10
+delivery vinyl tile / 21-10
+find in cottage / kran vanna / find it / 23-10
+
+delivery things / check door/ clear room / 23-10
+buy / find deeds for it / new holder for window / 23-10
+mirror / after install tumba, taka size, buy / 23-10
+
+flat / doing / suspended ceilling / define day / 23-10
+________________________________________
+delivery facade / 26-10
+delivery tabletop / wait answer from andry / 19-10 09:00
+________________________________________
+andry / невролог / 27-10 17:30  
+________________________________________
 entrance door ( know date) / 28-10
-_____________________
-delivery facade / 20-10
+________________________________________
+oboi / stick  / 29-10
+________________________________________
 buy / inrokras panel  / find where, take size / 20-10
 buy / podlojka Volga / find where, take size / 18:00
-delivery tabletop / wait answer from andry / 19-10 09:00
 design osmos, kitchen / wait answer from andry / 20-10
 turn on syston of leak of water / 23-10
-
-box thing / find device, make up test, check second lamp / 19-10
-andry / невролог / 27-10 17:30  
-oboi / stick  / 28-10
 ________________________________________________________________
-buy / find deeds for it / new holder for window / 26-10
-mirror / after install tumba, taka size, buy / 19-10
+box thing / find device, make up test, check second lamp / 19-10
 interior door ( know date) / 23-10
 vtb cashback / 12:20
-flat / doing / suspended ceilling / define day /
 resolve questions with credits / 2023-09-27 14:00:23.111111
-
 take back buy /
 propka back
 infokr back
