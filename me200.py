@@ -1,4 +1,4 @@
-2023-10-20 17:39:28.451366
+2023-10-21 18:09:17.010770
 
   brain: .
     thinking circle: .
@@ -37,7 +37,10 @@
 
 
 _?00_IMPORTING DEALS:
-_____________________
+_______________________________________
+
+magnits
+
 kran_kitchen / find replacement and wash it / 19-10
 buy / kran vanna / find it / 19-10
 installation / find botton, ask bill, know models / 20:20
@@ -49,7 +52,7 @@ nalog pay up / inter in account and find what is the pay / 20:00
 choes / write number of order, sent pic / 19-10
 back money for sistem protect water / 20-10
 password ( find passwords, check its, add in me203) / 23:00
-_____________________
+__________________________________
 workhands /call to organisation,  know about deeds / 21-10 09:00
 delivery vinyl tile / 21-10
 delivery things / check door/ clear room / 19-10
