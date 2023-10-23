@@ -1,4 +1,88 @@
-2023-10-23 04:13:19.244921
+2023-10-23 15:10:39.328462
+
+_?00_IMPORTING DEALS:
+_______________________________________
+arrow / call ask about shift, tell about sick / 23-10
+check floor with andry / 23-10
+chech job andry ovchinikov / install bottom, shelf, level
+
+workhands /call to organisation,  know about deeds / 23-10
+
+bath faucet / take size, buy /  23-10
+delivery vinyl tile / 21-10
+find in cottage / kran vanna / find it / 23-10
+
+delivery things / check door/ clear room / 23-10
+buy / find deeds for it / new holder for window / 23-10
+mirror / after install tumba, taka size, buy / 23-10
+
+back magnits / 22-10 
+buy kran_kitchen / 22-10
+flat / doing / suspended ceilling / define day / 23-10
+
+back money for sistem protect water / 21-10
+password ( find passwords, check its, add in me203) / 21-10
+
+installation / find botton, ask bill, know models / 21-10
+python study / 21-10
+repair / svetilniki / find last / 21-00
+
+nalog pay up / inter in account and find what is the pay / 21-10
+fabia / screen-wiper / 21-10
+filters / kerher
+________________________________________
+delivery facade / 26-10
+delivery tabletop / wait answer from andry / 19-10 09:00
+________________________________________
+andry / невролог / 27-10 17:30  
+________________________________________
+entrance door ( know date) / 28-10
+________________________________________
+oboi / stick  / 29-10
+________________________________________
+buy / inrokras panel  / find where, take size / 20-10
+buy / podlojka Volga / find where, take size / 18:00
+design osmos, kitchen / wait answer from andry / 20-10
+turn on syston of leak of water / 23-10
+choes / write number of order, sent pic / 21-10
+________________________________________________________________
+box thing / find device, make up test, check second lamp / 19-10
+interior door ( know date) / 23-10
+vtb cashback / 12:20
+resolve questions with credits / 2023-09-27 14:00:23.111111
+take back buy /
+propka back
+infokr back
+pocket back
+_________________________________________________________________________________
+buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
+delivery / osmos / 18:10
+car / fabia / take back engine pillow / 2023-10-03
+car / fabia / screen-wiper / find and install it / 2023-10-04
+refactoring (import charch order, variables hardcode переменные вынести, f string, отступы, исключение 48 expension, пробелы ±, request? look in telegram, raise 50 line, стрелка умолчанию None)
+donor / make up registration / 2023-10-04
+flat / know how resolve sill. /
+give money Andrew sh / 2023-09-27 14:00:23.111111
+give money Andrew of / 2023-09-27 14:00:23.111111
+
+flat / doing / make up electrica in flat. / 
+flat / doing / walls / check results /
+flat / buy / sofa /
+flat / buy / bed / 
+flat / take size, take order / bedboards /
+flat / credit card vtb / check about money /
+
+debt of Andrew:
+keys 1800
+domofon keys 400
+povredil perfitator. i armotizaziya
+завалена стена
+неровный пол.
+просроченная краска на стены.
+smesitel
+krujka 
+blinds
+
 
 
 15 полезных вопросов для проверки температуры вашего брака в конце очередного года... 
@@ -37,7 +121,11 @@
 Введите свой вопрос: Как провести остаток жизни
 Проведение остатка жизни зависит от ваших личных целей, интересов и желаний. Вот несколько идей, которые могут помочь вам провести остаток жизни насыщенно и счастливо:
 
-1. Определите свои цели: задумайтесь о том, что вам действительно важно в жизни и что вы хотите достичь. Создайте список своих целей и разработайте планы для их достижения.
+1. Определите свои цели: задумайтесь
+ о том, что вам действительно важно 
+в жизни и что вы хотите достичь.
+ Создайте список своих целей и 
+разработайте планы для их достижения.
 
 2. Развивайтесь: никогда не переставайте учиться и развиваться. Продолжайте изучать новые навыки, читать книги, посещать курсы и семинары. Это поможет вам оставаться активным и интересным человеком.
 
@@ -104,91 +192,8 @@
           118. dwelling order. .
           119. db_me. .
           120. dinner. .
+          
 
-
-
-
-
-_?00_IMPORTING DEALS:
-_______________________________________
-arrow / call ask about shift, tell about sick / 23-10
-check floor with andry / 23-10
-chech job andry ovchinikov 
-workhands /call to organisation,  know about deeds / 23-10
-
-bath faucet / take size, buy /  23-10
-delivery vinyl tile / 21-10
-find in cottage / kran vanna / find it / 23-10
-
-delivery things / check door/ clear room / 23-10
-buy / find deeds for it / new holder for window / 23-10
-mirror / after install tumba, taka size, buy / 23-10
-
-back magnits / 22-10 
-buy kran_kitchen / 22-10
-flat / doing / suspended ceilling / define day / 23-10
-
-back money for sistem protect water / 21-10
-password ( find passwords, check its, add in me203) / 21-10
-
-installation / find botton, ask bill, know models / 21-10
-python study / 21-10
-repair / svetilniki / find last / 21-00
-
-nalog pay up / inter in account and find what is the pay / 21-10
-fabia / screen-wiper / 21-10
-________________________________________
-delivery facade / 26-10
-delivery tabletop / wait answer from andry / 19-10 09:00
-________________________________________
-andry / невролог / 27-10 17:30  
-________________________________________
-entrance door ( know date) / 28-10
-________________________________________
-oboi / stick  / 29-10
-________________________________________
-buy / inrokras panel  / find where, take size / 20-10
-buy / podlojka Volga / find where, take size / 18:00
-design osmos, kitchen / wait answer from andry / 20-10
-turn on syston of leak of water / 23-10
-choes / write number of order, sent pic / 21-10
-________________________________________________________________
-box thing / find device, make up test, check second lamp / 19-10
-interior door ( know date) / 23-10
-vtb cashback / 12:20
-resolve questions with credits / 2023-09-27 14:00:23.111111
-take back buy /
-propka back
-infokr back
-pocket back
-_________________________________________________________________________________
-buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
-delivery / osmos / 18:10
-car / fabia / take back engine pillow / 2023-10-03
-car / fabia / screen-wiper / find and install it / 2023-10-04
-refactoring (import charch order, variables hardcode переменные вынести, f string, отступы, исключение 48 expension, пробелы ±, request? look in telegram, raise 50 line, стрелка умолчанию None)
-donor / make up registration / 2023-10-04
-flat / know how resolve sill. /
-give money Andrew sh / 2023-09-27 14:00:23.111111
-give money Andrew of / 2023-09-27 14:00:23.111111
-
-flat / doing / make up electrica in flat. / 
-flat / doing / walls / check results /
-flat / buy / sofa /
-flat / buy / bed / 
-flat / take size, take order / bedboards /
-flat / credit card vtb / check about money /
-
-debt of Andrew:
-keys 1800
-domofon keys 400
-povredil perfitator. i armotizaziya
-завалена стена
-неровный пол.
-просроченная краска на стены.
-smesitel
-krujka 
-blinds
 
 Ремень ГРМ. Полный комплект.
 Сальник распредвала, коленвала,
