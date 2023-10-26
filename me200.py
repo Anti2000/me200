@@ -1,12 +1,13 @@
-2023-10-23 15:10:39.328462
+2023-10-26 07:47:16.400222
 
 _?00_IMPORTING DEALS:
 _______________________________________
+301. pay for flat, cottage. .
 arrow / call ask about shift, tell about sick / 23-10
 check floor with andry / 23-10
 chech job andry ovchinikov / install bottom, shelf, level
 
-workhands /call to organisation,  know about deeds / 23-10
+workhands /call to organisation, know about deeds / 23-10
 
 bath faucet / take size, buy /  23-10
 delivery vinyl tile / 21-10
@@ -192,7 +193,7 @@ blinds
           118. dwelling order. .
           119. db_me. .
           120. dinner. .
-          
+          301. pay for flat, cottage. .
 
 
 Ремень ГРМ. Полный комплект.
