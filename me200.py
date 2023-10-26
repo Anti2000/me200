@@ -1,50 +1,50 @@
-2023-10-26 07:47:16.400222
+2023-10-26 08:17:46.102661
 
 _?00_IMPORTING DEALS:
 _______________________________________
-301. pay for flat, cottage. .
-arrow / call ask about shift, tell about sick / 23-10
+delivery things / check door/ clear room / 23-10
 check floor with andry / 23-10
 chech job andry ovchinikov / install bottom, shelf, level
 
-workhands /call to organisation, know about deeds / 23-10
-
-bath faucet / take size, buy /  23-10
 delivery vinyl tile / 21-10
-find in cottage / kran vanna / find it / 23-10
+money / know how much and when
+ask andry sh about other things / 
 
-delivery things / check door/ clear room / 23-10
-buy / find deeds for it / new holder for window / 23-10
-mirror / after install tumba, taka size, buy / 23-10
-
-back magnits / 22-10 
-buy kran_kitchen / 22-10
-flat / doing / suspended ceilling / define day / 23-10
-
-back money for sistem protect water / 21-10
-password ( find passwords, check its, add in me203) / 21-10
-
-installation / find botton, ask bill, know models / 21-10
-python study / 21-10
-repair / svetilniki / find last / 21-00
-
-nalog pay up / inter in account and find what is the pay / 21-10
-fabia / screen-wiper / 21-10
-filters / kerher
-________________________________________
-delivery facade / 26-10
-delivery tabletop / wait answer from andry / 19-10 09:00
-________________________________________
-andry / невролог / 27-10 17:30  
-________________________________________
-entrance door ( know date) / 28-10
-________________________________________
-oboi / stick  / 29-10
-________________________________________
 buy / inrokras panel  / find where, take size / 20-10
 buy / podlojka Volga / find where, take size / 18:00
+delivery facade / 26-10
+
+delivery tabletop / wait answer from andry / 19-10 09:00
+filters / kerher
+installation / find botton, ask bill, know models / 21-10
+
+workhands /call to organisation, know about deeds / 23-10
+back magnits / 22-10 
+python study / 21-10
+
+floor / buy primer, clear floor, prime floor / 
+fabia / screen-wiper / 21-10
+301. pay for flat, cottage. .
+
+password ( find passwords, check its, add in me203) / 21-10
+repair / svetilniki / find last / 21-00
+nalog pay up / inter in account and find what is the pay / 21-10
+________________________________________
+arrow / go to hospital / 23-10
+andry / невролог / 27-10 17:30  
+mirror / after install tumba, taka size, buy / 23-10
+
+entrance door ( know date) / 28-10
+flat / doing / suspended ceilling / define day / 23-10
+________________________________________
+buy / find deeds for it / new holder for window / 23-10
+find in cottage / kran vanna / find it / 23-10
 design osmos, kitchen / wait answer from andry / 20-10
-turn on syston of leak of water / 23-10
+________________________________________
+________________________________________
+bath faucet / install /  23-10
+oboi / stick  / 29-10
+________________________________________
 choes / write number of order, sent pic / 21-10
 ________________________________________________________________
 box thing / find device, make up test, check second lamp / 19-10
