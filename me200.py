@@ -1,64 +1,66 @@
-2023-10-29 01:29:56.990811
+2023-10-29 03:47:36.114906
 
 _?00_IMPORTING DEALS:
 _______________________________________
+          302 chec bills of car. .
+buy / podlojka Volga / find where, take size / 18:00
+install bowl / 
+back magnits / 22-10 
+
+filters / kerher
+python study / 21-10
+design osmos, kitchen / wait answer from andry / 20-10
+
+floor / ask about primer, get smooth floor, primer it / 
+oboi / buy glue, stick  / 29-10
+fabia / screen-wiper / 21-10
+
+repair / svetilniki / find last / 21-00
+password ( find passwords, check its, add in me203) / 21-10
+nalog pay up / inter in account and find what is the pay / 21-10
+
+installation / find botton, ask bill, know models / 21-10
+ask gpt-4 about son, daughter, consort, God / 
+bath faucet / install it /  23-10
+________________________________________
 arrow / call ask about shift, tell about sick / 23-10
-check floor with andry / 23-10
 chech job andry ovchinikov / install bottom, shelf, level
+buy / inrokras panel  / find where, take size / 20-10
 
-workhands /call to organisation,  know about deeds / 23-10
+turn on system of leak of water / 23-10
+andry / невролог / 27-10 17:30  
+mirror / after install tumba, taka size, buy / 23-10
 
-bath faucet / take size, buy /  23-10
-delivery vinyl tile / 21-10
+flat / doing / suspended ceilling / define day / 23-10
+delivery facade / 26-10
 find in cottage / kran vanna / find it / 23-10
 
 delivery things / check door/ clear room / 23-10
 buy / find deeds for it / new holder for window / 23-10
-mirror / after install tumba, taka size, buy / 23-10
+workhands /call to organisation,  know about deeds / 23-10
 
-back magnits / 22-10 
-buy kran_kitchen / 22-10
-flat / doing / suspended ceilling / define day / 23-10
-
-back money for sistem protect water / 21-10
-password ( find passwords, check its, add in me203) / 21-10
-
-installation / find botton, ask bill, know models / 21-100
-python study / 21-10
-repair / svetilniki / find last / 21-00
-
-nalog pay up / inter in account and find what is the pay / 21-10
-fabia / screen-wiper / 21-10
-filters / kerher
-________________________________________
-delivery facade / 26-10
-delivery tabletop / wait answer from andry / 19-10 09:00
-________________________________________
-andry / невролог / 27-10 17:30  
-________________________________________
 entrance door ( know date) / 28-10
-________________________________________
-oboi / stick  / 29-10
-________________________________________
-buy / inrokras panel  / find where, take size / 20-10
-buy / podlojka Volga / find where, take size / 18:00
-design osmos, kitchen / wait answer from andry / 20-10
-turn on syston of leak of water / 23-10
 choes / write number of order, sent pic / 21-10
-________________________________________________________________
 box thing / find device, make up test, check second lamp / 19-10
+
 interior door ( know date) / 23-10
-vtb cashback / 12:20
-resolve questions with credits / 2023-09-27 14:00:23.111111
 take back buy /
+delivery / osmos / 18:10
+
+buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
+car / fabia / take back engine pillow / 2023-10-03
+car / fabia / screen-wiper / find and install it / 2023-10-04
+________________________________________
+________________________________________
+________________________________________
+________________________________________
+________________________________________________________________
+resolve questions with credits / 2023-09-27 14:00:23.111111
 propka back
+vtb cashback / 12:20
 infokr back
 pocket back
 _________________________________________________________________________________
-buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
-delivery / osmos / 18:10
-car / fabia / take back engine pillow / 2023-10-03
-car / fabia / screen-wiper / find and install it / 2023-10-04
 refactoring (import charch order, variables hardcode переменные вынести, f string, отступы, исключение 48 expension, пробелы ±, request? look in telegram, raise 50 line, стрелка умолчанию None)
 donor / make up registration / 2023-10-04
 flat / know how resolve sill. /
@@ -187,13 +189,38 @@ blinds
           112. email. .
           113. plan. .
           114. question. .
-          115. reading. .
+          115. reading book. .
           117. shoes. .
           118. dwelling order. .
           119. db_me. .
           120. dinner. .
+          121. mothers time. .
+          122. writing program. .
+          123. famelies chess. .
+          124. daughter time. .
+          125. sons time. .
+          126. bibles time. .
+          127. wifes time. .
+          128. wash myself. .
           129. teeth.
-          130. sleep.
+          130. sleep (days analisys).
+          201. tays balet. .
+          202. andry pool. .
+          301. car. look level of oil. .
+          302. wash car. .
+          305. how is bezborodov. .
+          306. how is mihanov. .
+          307. how is pavel python. .
+          308. how is yura gayfulin. .
+          309. how is barinov. .
+          401. pay for dwelling (flat, cottage)
+          402. updata cards lenta. .
+          501. the nails. .
+          502. sans haircutter. .
+          503. tais teeth was 210323
+          504. my teeth.
+          505. sons teeth. .
+          506. consort teeth. .
           
 
 
