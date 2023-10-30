@@ -1,31 +1,31 @@
-2023-10-29 03:47:36.114906
+2023-10-30 06:36:47.146132
 
 _?00_IMPORTING DEALS:
 _______________________________________
           302 chec bills of car. .
 buy / podlojka Volga / find where, take size / 18:00
-install bowl / 
-back magnits / 22-10 
+buy / inrokras panel  / find where, take size / 20-10
+ask gpt-4 about son, daughter, consort, God / 
 
-filters / kerher
 python study / 21-10
+install bowl / 
+car / fabia / screen-wiper / find and install it / 2023-10-04
+
+bath faucet / install it /  23-10
 design osmos, kitchen / wait answer from andry / 20-10
-
 floor / ask about primer, get smooth floor, primer it / 
-oboi / buy glue, stick  / 29-10
-fabia / screen-wiper / 21-10
 
+back magnits / 22-10 
+oboi / buy glue, stick  / 29-10
 repair / svetilniki / find last / 21-00
+
 password ( find passwords, check its, add in me203) / 21-10
 nalog pay up / inter in account and find what is the pay / 21-10
-
 installation / find botton, ask bill, know models / 21-10
-ask gpt-4 about son, daughter, consort, God / 
-bath faucet / install it /  23-10
-________________________________________
+
 arrow / call ask about shift, tell about sick / 23-10
-chech job andry ovchinikov / install bottom, shelf, level
-buy / inrokras panel  / find where, take size / 20-10
+check job andry ovchinikov / install bottom, shelf, level
+________________________________________
 
 turn on system of leak of water / 23-10
 andry / невролог / 27-10 17:30  
@@ -49,7 +49,6 @@ delivery / osmos / 18:10
 
 buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
 car / fabia / take back engine pillow / 2023-10-03
-car / fabia / screen-wiper / find and install it / 2023-10-04
 ________________________________________
 ________________________________________
 ________________________________________
