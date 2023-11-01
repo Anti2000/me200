@@ -1,32 +1,33 @@
-2023-10-30 06:36:47.146132
+2023-11-01 06:47:58.293920
 
 _?00_IMPORTING DEALS:
 _______________________________________
-          302 chec bills of car. .
-buy / podlojka Volga / find where, take size / 18:00
-buy / inrokras panel  / find where, take size / 20-10
+nalog pay up / inter in account and find what is the pay / 21-10
 ask gpt-4 about son, daughter, consort, God / 
-
 python study / 21-10
-install bowl / 
+
 car / fabia / screen-wiper / find and install it / 2023-10-04
+password ( find passwords, check its, add in me203) / 21-10
+________________________________________
+inrokras panel  / call to warm floor, take size / 20-10
+floor / ask about primer, get smooth floor, primer it / 
+oboi / buy glue, stick  / 29-10
+
+install bowl / 
+check job andry ovchinikov / install bottom, shelf, level
+podlojka Volga / delivery from merlin to home / 18:00
+
 
 bath faucet / install it /  23-10
 design osmos, kitchen / wait answer from andry / 20-10
-floor / ask about primer, get smooth floor, primer it / 
 
 back magnits / 22-10 
-oboi / buy glue, stick  / 29-10
 repair / svetilniki / find last / 21-00
 
-password ( find passwords, check its, add in me203) / 21-10
-nalog pay up / inter in account and find what is the pay / 21-10
 installation / find botton, ask bill, know models / 21-10
 
-arrow / call ask about shift, tell about sick / 23-10
-check job andry ovchinikov / install bottom, shelf, level
 ________________________________________
-
+_________________________________________
 turn on system of leak of water / 23-10
 andry / невролог / 27-10 17:30  
 mirror / after install tumba, taka size, buy / 23-10
@@ -49,10 +50,6 @@ delivery / osmos / 18:10
 
 buy/ plintusa  / find where, take size / 2023-09-2b bbl7 14:00:23.111111
 car / fabia / take back engine pillow / 2023-10-03
-________________________________________
-________________________________________
-________________________________________
-________________________________________
 ________________________________________________________________
 resolve questions with credits / 2023-09-27 14:00:23.111111
 propka back
