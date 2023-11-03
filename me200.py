@@ -1,4 +1,4 @@
-2023-11-01 06:47:58.293920
+2023-11-04 02:29:59.057391
 
 _?00_IMPORTING DEALS:
 _______________________________________
@@ -17,13 +17,11 @@ install bowl /
 check job andry ovchinikov / install bottom, shelf, level
 podlojka Volga / delivery from merlin to home / 18:00
 
-
 bath faucet / install it /  23-10
 design osmos, kitchen / wait answer from andry / 20-10
-
 back magnits / 22-10 
-repair / svetilniki / find last / 21-00
 
+repair / svetilniki / find last / 21-00
 installation / find botton, ask bill, know models / 21-10
 
 ________________________________________
@@ -325,8 +323,9 @@ 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
 
     PASSWORD: .
     
-    chulo2019@yahoo.com:VjB4R1tbcv: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
-    
+    chulo2019@yahoo.com:VjB4R1tbcv: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 .
+    my госуслуги	                   	antiohy@mail.ru	89096009912	Oygp5_W1, .
+    	  tax 026829834996
           aliexpress https://seller.aliexpress.ru/  anatole.yakovlev@gmail.com  Asd25@# .
           avito novikov.timofey1952@gmail.com 8 995 839-59-17. firefox .
           avito 89096009912 chrome. .
@@ -334,7 +333,7 @@ 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
           exist 89096009912 . .
           Yandex alisa light anatolij.novikov2016@ya.ru .
           https://privetmir.ru/         Qetuo6186$ . .
-госуслуги	                   	antiohy@mail.ru	89096009912	TA1619m!  w88!?%EJn+8 .
+
 Сбербанк                      логин LAP_VALYA1954  пароль VALYA121!valya . .
 госуслуги                     laptev1954laptev1954@mail.ru  LAP_VALYA1954lap .
 sbre app                      Sber6186921619@ password .
