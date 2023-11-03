@@ -1,4 +1,4 @@
-2023-11-04 02:29:59.057391
+2023-11-04 02:48:18.232738
 
 _?00_IMPORTING DEALS:
 _______________________________________
@@ -9,13 +9,19 @@ python study / 21-10
 car / fabia / screen-wiper / find and install it / 2023-10-04
 password ( find passwords, check its, add in me203) / 21-10
 ________________________________________
-inrokras panel  / call to warm floor, take size / 20-10
-floor / ask about primer, get smooth floor, primer it / 
 oboi / buy glue, stick  / 29-10
+floor / ask about primer, get smooth floor, primer it / 
+podlojka Volga / delivery from merlin to home / 18:00
+
+inrokras panel  / call to warm floor, take size / 20-10
+bath
+door / install
 
 install bowl / 
+other worker / call to manita /
+walk with famely /
+
 check job andry ovchinikov / install bottom, shelf, level
-podlojka Volga / delivery from merlin to home / 18:00
 
 bath faucet / install it /  23-10
 design osmos, kitchen / wait answer from andry / 20-10
