@@ -1,4 +1,4 @@
-2023-11-06 12:28:15.597097
+2023-11-09 03:45:18.722808
 
 _?00_IMPORTING DEALS:
 _______________________________________
@@ -29,7 +29,6 @@ back magnits / 22-10
 
 repair / svetilniki / find last / 21-00
 installation / find botton, ask bill, know models / 21-10
-
 ________________________________________
 _________________________________________
 turn on system of leak of water / 23-10
@@ -454,6 +453,10 @@ GIT: .
   VC CODE .
    install vc code: .
    sudo snap install --classic code. .
+
+uvicorn server:app --reload start server on computor
+
+ctrl / - make comments
 
 FLUTTER .
   funcion main. .
