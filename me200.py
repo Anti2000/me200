@@ -1,4 +1,4 @@
-2023-12-22 02:18:20.821402
+2023-12-24 15:27:25.026691
 
 _?00_IMPORTING DEALS:
 _______________________________________
@@ -408,6 +408,7 @@ sandbox without holes only materials.  .
 ЦЕНА По комплекту с вагонкой стоимость будет 14250.  НА 23.07.2023
 
 VPN:
+sudo openvpn vpnbook-us1-tcp443.ovpn
 username:vpnbook
 password:33uitne
 
