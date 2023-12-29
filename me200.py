@@ -1,15 +1,6 @@
-2023-12-25 13:59:46.863670
+2023-12-29 17:35:06.566162
 
 _?00_IMPORTING DEALS:
-
-pay off for flat
-sell wheel
-battery on kitchen
-
-battery bedroom / paint /
-
-tv
-sistem_of_gathering
 _______________________________________
 nalog pay up / inter in account and find what is the pay / 21-10
 ask gpt-4 about son, daughter, consort, God / 
@@ -339,6 +330,7 @@ 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
     
     chulo2019@yahoo.com:VjB4R1tbcv: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 .
     my госуслуги	                   	antiohy@mail.ru	89096009912	Oygp5_W1, .
+    https://myaccount.openvpn.com/signup/as     antiohy@mail.ru   sTt*E)]CDg?Aur3
     	  tax 026829834996
           aliexpress https://seller.aliexpress.ru/  anatole.yakovlev@gmail.com  Asd25@# .
           avito novikov.timofey1952@gmail.com 8 995 839-59-17. firefox .
@@ -416,10 +408,17 @@ sandbox without holes only materials.  .
 Наличник 4 шт. По 2 метра.
 ЦЕНА По комплекту с вагонкой стоимость будет 14250.  НА 23.07.2023
 
+
 VPN:
 sudo openvpn vpnbook-us1-tcp443.ovpn
 username:vpnbook
 password:33uitne
+
+sudo wg-quick up wg0
+- wg-quick down wg0
+sudo wg show
+/etc/wireguard/wg0.conf :location for config file
+
 
 GIT: .
  sudo apt install git .
@@ -452,7 +451,14 @@ GIT: .
  Then I push the changes to a remote branch of the same name: .
  git push origin FixForBug .
 
+telegrambot:
+@BotFather :username for searching.
+
+
+
+
   UBUNTU .
+  mv dir1 dir2 : replace file to other folder.
    linux commands: ls: List the contents of a folder. .
    ls -l : to see details like file size, permission, modified time, etc. .
    cd : Change the directory. .
